@@ -1,0 +1,100 @@
+page{
+  background: #F5F7F8;
+}
+.package-detail view text{
+  color: #46A3F4;
+  font-size: 28rpx;
+}
+
+.setInfo{
+  background: #fff;
+  padding: 34rpx 41rpx 30rpx;
+}
+.setInfo .info-title{
+  color: #2B2B2B;
+  font-size: 28rpx;
+  margin-bottom: 24rpx;
+  display: block;
+}
+.setInfo input{
+  height: 82rpx;
+  border: 2rpx solid #BDBDBD;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  padding-left: 32rpx;
+  margin-bottom: 32rpx;
+}
+.setInfo .msgcode{
+  display: flex;
+  justify-content: space-between;
+}
+.setInfo .msgcode input{
+  width: 55%;
+}
+.setInfo .msgcode button{
+  background: #46A3F4;
+  color: #fff;
+  height: 82rpx;
+  width: 200rpx;
+  margin: 0;
+  font-size: 28rpx;
+  line-height: 82rpx;
+}
+.setInfo .msgcode .imagecode{
+  width: 200rpx;
+  height: 82rpx;
+}
+.setInfo .imagecode image{
+  width: 100%;
+  height: 82rpx;
+}
+.advice{
+  padding: 24rpx 41rpx 0;
+}
+.advice text{
+  display: block;
+  font-size: 26rpx;
+  color: #676767;
+  line-height: 40rpx;
+  margin-bottom: 15rpx;
+}
+.advice .advice-title{
+  color: #2B2B2B;
+  font-size: 28rpx;
+  margin-bottom: 15rpx;
+}
+.buy{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+}
+.buy .btn{
+  width: 100%;
+  background: #2BA245;
+  text-align: center;
+  line-height: 98rpx;
+  color: #fff;
+  font-size: 38rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buy .btn image{
+  width: 50rpx;
+  height: 44rpx;
+  margin-right: 18rpx;
+}
+.package-detail{
+  font-size: 24rpx;
+  padding:42rpx 0 14rpx 32rpx;
+  background: #fff;
+  margin-bottom: 18rpx; 
+}
+.package-detail view{
+  color: #2B2B2B;
+  margin-bottom: 18rpx;
+}
+.price text{
+  color: #EE5447;
+}

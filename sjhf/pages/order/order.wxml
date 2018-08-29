@@ -1,0 +1,27 @@
+<view wx:for="{{orderArr}}" wx:for-index="idx" wx:for-item="orderList" wx:key="order">
+  <view class='order'>
+    <view class='order-number box'>
+      <view>
+        订单号：<text>{{orderList.order_num}}</text>
+      </view>
+      <text class='paied-3' wx:if="{{orderList.order_status==3}}" id='{{idx}}'>已完成</text>
+      <text class='paied' wx:elif="{{orderList.order_status==1}}" bindtap='payNow' id='{{idx}}'>去付款</text>
+      <text class='paied' wx:elif="{{orderList.order_status==5}}" id='{{idx}}'>已退款</text>
+      <text class='paied' wx:elif="{{orderList.order_status==6}}" id='{{idx}}'>预退款</text>
+      <text class='paied' wx:else id='{{idx}}'>已取消</text>
+    </view>
+    <view class='box detail'>
+      <view class='type line'>
+        <view>
+          预约项目：<text>{{orderList.product}}</text>
+        </view>
+        <text class='price'>¥{{orderList.product_price}}</text>
+      </view>
+      <view class='time line'>
+        <view>
+          预约时间：<text>{{orderList.create_time}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

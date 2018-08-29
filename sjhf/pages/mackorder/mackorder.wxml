@@ -1,0 +1,51 @@
+<view class='product-intro'>
+  <view wx:if="{{isIos == 0}}">
+    <image src='../../images/pic_hudunpingguo.png' ></image>
+    <text class='title'>互盾苹果恢复大师</text>
+    <text class='dec'>互盾苹果恢复大师是一款专门针对苹果设备研发的数据恢复软件，界面简洁，操作简单，完美恢复丢失的数据.</text>
+  </view>
+  <view wx:else>
+    <image src='../../images/pic_hudunandriod.png'></image>
+    <text class='title'>互盾安卓恢复大师</text>
+    <text class='dec'>互盾安卓恢复大师是一款专门针对安卓设备研发的数据恢复软件，界面简洁，操作简单，完美恢复丢失的数据.</text>
+  </view>
+</view>
+
+<view>
+  <view class='package-plan hot'  bindtap='checkpackage' id='2' data-price='156'>
+    <image class='hot-rec' src='../../images/icon_tuijian.png'></image>
+    <view>
+      <view class='plan-detail'>
+        <image class='logo-icon' src='../../images/logo_sjsjhfjl.png'></image>
+        <text class='equal'>+</text>
+        <image class='logo-icon' src='../../images/logo_iphonehf.png' wx:if="{{isIos == 0}}"></image>
+        <image class='logo-icon' src='../../images/logo-s.png' wx:else></image>
+        <text class='equal'>=</text>
+        <text class='price'>￥156</text>
+      </view>
+      <view class='plan-dec' wx:if="{{isIos == 0}}">156元<text>"recover数据恢复精灵套餐"</text>排队恢复服务</view>
+      <view class='plan-dec' wx:else>156元<text>"recover数据恢复精灵套餐"</text>排队恢复服务</view>
+    </view>
+  </view>
+</view>
+
+<view class='service'>
+  <text class='title'>服务说明：</text>
+  <text>用户预约恢复后，工程师会按订单提交顺序依次回复(工作时间：09：00~18：00)，并用专业技术帮助您在第一时间找回丢失的数据，提供专业的数据恢复服务，请您耐心等待。</text>
+  <view class='pay'>
+    <button bindtap='payNow'>立即支付</button>
+  </view>
+  <view class='teach'>
+    <text class='teach-title'>安装步骤：</text>
+    <view class='website' wx:if="{{isIos == 0}}">1. 打开软件官网：
+      <text class='url'>www.huifudashi.com</text>
+    </view>
+    <view class='website' wx:else>1. 打开软件官网：
+      <text class='url'>http://anzhuo.huifudashi.com/</text>
+    </view>
+    <text wx:if="{{isIos == 0}}">2. 下载互盾苹果恢复大师</text>
+    <text wx:else>2. 下载互盾安卓恢复大师</text>
+    <text>3. 按照软件提示进行安装</text>
+    <text>4.将移动设备通过USB连接电脑，即可轻松恢复移动设备上的数据</text>
+  </view>
+</view>

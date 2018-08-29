@@ -1,0 +1,15 @@
+<!--pages/englishname/englishname.wxml-->
+<view class="container">
+  <view class="ename-list">
+    <view class="ename-li" wx:for="{{namearr}}" wx:for-item="namearritem" wx:for-index="index">
+      <view class='ename-h6'>
+        <text>{{namearritem.Name}}</text>
+        <image src='../images/border.png'></image>
+      </view>
+      <view class='ename-ctt'>
+        <text>读音：{{namearritem.Cnword}}</text>
+        <text>{{namearritem.Mean}}</text>
+      </view>
+    </view>
+  </view>
+</view>

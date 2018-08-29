@@ -1,0 +1,70 @@
+page{
+  background: #F2F6F9;
+}
+.user-name{
+  position: relative;
+  margin-bottom: 30rpx;
+  height: 332rpx;
+}
+.user-name image.bg{
+  width: 750rpx;
+  height: 332rpx;
+
+}
+.user-name .head-img{
+  position: absolute;
+  width: 100%;
+  font-size: 28rpx;
+  color: #fff;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 64rpx;
+}
+.imagebox{
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 auto 20rpx;
+  overflow: hidden;
+}
+.user-name .head-img .image{
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+}
+.user-name .head-img .text{
+  display: block;
+}
+.user-action .action-item{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 2rpx;
+  font-size: 28rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding: 0 30rpx;
+}
+.user-action .action-item .col-r{
+  color: #3da1f8;
+}
+.user-action .action-item view image,.user-action .action-item view  text{
+  vertical-align: middle;
+}
+.user-action .action-item view image{
+  margin-right: 28rpx;
+}
+.user-action .action-item .col-r.contact{
+  border-color: #fff;
+  outline: none;
+  background: #fff;
+  margin:14rpx 0 0;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  box-shadow: none;
+  padding: 0;
+}
+button::after {
+  border: 0 none;
+} 

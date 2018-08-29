@@ -1,0 +1,58 @@
+<!--pages/help/help.wxml-->
+ <view class='phonecall'>
+  <view class='content'>
+    <view class='icon'>
+      <image src='../../images/icon_service.png'></image>
+    </view>
+    <text>在线客服</text>
+    <text>7*24小时值班</text>
+  </view>
+  <button  class='contact'
+size="40"
+type="primary"
+session-from="nickName={{userInfo.nickName}}|avatarUrl={{userInfo.avatarUrl}}"
+open-type="contact"
+>联系客服</button> 
+</view> 
+<view class='main'>
+  <view class='title'>
+    <view class='line'></view>
+    <text>服务流程</text>
+  </view>
+  <view class='process'>
+    <image src='../../images/process.png'></image>
+    <view class='text'>
+      <text>1.选择套餐</text>
+      <text>2.支付套餐</text>
+      <text>3.确定方案</text>
+      <text>4.业务完成</text>
+    </view>
+  </view>
+</view>
+<view class='main post-container'>
+  <view class='title'>
+    <view class='line'></view>
+    <text>热门问题</text>
+  </view>
+  <view wx:for="{{problem}}" class='post {{show==index?"show":""}}' wx:key="problem">
+    <view class='post-title' id='{{index}}' bindtap='showExcerpt'>
+      <image src='../../images/icon_hot.png'></image>
+      <text>{{index+1}}、{{item.title}}</text>
+      <icon class='arrow'></icon>
+    </view>
+    <text class='excerpt'>{{item.excerpt}}</text>
+  </view>
+</view>
+<view class='main case-container'>
+  <view class='title'>
+    <view class='line'></view>
+    <text>客户案例</text>
+  </view>
+  <view wx:for="{{casePost}}" class='case' wx:key="case" id='{{item.post_id}}' data-url='{{item.url}}' bindtap='toPost'>
+    <text class='post-title'>{{item.title}}</text>
+    <view class='date'>
+      <text>{{item.date }} {{item.time}}</text>
+    </view>
+    <image src='{{item.thumbnail}}' class='thumbnail'></image>
+  </view>
+</view>

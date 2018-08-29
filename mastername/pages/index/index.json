@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "宝宝起美名",
+  "usingComponents": {
+    "addWeChat": "/addWeChat/addWeChat"
+  }
+}

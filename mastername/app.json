@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/protest/protest",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/outofname/outofname",
+    "pages/namelist/namelist",
+    "pages/detailstotal/detailstotal",
+    "pages/englishname/englishname"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fdfcf2",
+    "navigationBarTitleText": "宝宝起美名",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959595",
+    "selectedColor": "#4a4a4a",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/bottom-icon1.png",
+        "iconPath": "pages/images/bottom-icon1-1.png",
+        "pagePath": "pages/index/index",
+        "text": "取名"
+      },
+      {
+        "selectedIconPath": "pages/images/bottom-icon2.png",
+        "iconPath": "pages/images/bottom-icon2-1.png",
+        "pagePath": "pages/outofname/outofname",
+        "text": "解名"
+      },
+      {
+        "selectedIconPath": "pages/images/bottom-icon3.png",
+        "iconPath": "pages/images/bottom-icon3-1.png",
+        "pagePath": "pages/protest/protest",
+        "text": "亲测"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<view class='xinghao-bg'>
+  <image src='../../images/ico-xinghao.png'></image>
+  <view class='model'>
+    <text>{{brand}}</text>
+    <text>{{model}}</text>
+  </view>
+</view>
+<button class='scan' bindtap='toScan'>立即检测</button>
+<!-- <navigator url="../mobileinfo/mobileinfo" hover-class="navigator-hover">跳转到新页面</navigator> -->

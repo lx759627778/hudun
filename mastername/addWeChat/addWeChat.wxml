@@ -1,0 +1,30 @@
+<!-- 开屏弹窗 -->
+ <view class="pop-mask" hidden="{{ishidden}}">
+  <view class="pop-ctt">
+    <image class='pop-bg' src="../pages/images/pop-bg.png" mode="widthFix"></image>
+    <view class="Guide-WeChat">
+      <view class="Guide-WeChat-line">
+        <view class="WeChat-name">
+          <image src="../pages/images/pic_touxiang.png" mode="widthFix"></image>
+          <text>大师亲取美名</text>
+        </view>
+        <image class='WeChat-text-img' src="../pages/images/pic_wenzi.png" mode="widthFix"></image>
+      </view>
+      <view class="Guide-WeChat-line bg-f7f5e8">
+        <view class="copy-box">
+          <view class="copy-text"   bindlongtap="copyTBL">
+            <text class='copy-text1'  selectable="true">{{Wechatnumber}}</text>
+            <button>长按复制</button>
+          </view>
+          <view class='Quota-text'>今日仅有<text class='big-text'>30</text>个添加<text selectable="true">微信名额</text></view>
+        </view>
+      </view>
+      <view class="Guide-WeChat-line">
+        <view class='add-text'>打开微信，点击右上角<text>“+”</text>点击<text>“添加朋友”</text></view>
+        <image class='add-img' src="../pages/images/pic_peitu.png" mode="widthFix"></image>
+      </view>
+    </view>
+    <image class='pop-close' bindtap='popclose' src="../pages/images/ico_guanbi.png" mode="widthFix"></image>
+  </view>
+ </view>
+

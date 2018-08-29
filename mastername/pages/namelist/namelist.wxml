@@ -1,0 +1,13 @@
+<!--pages/namelist/namelist.wxml-->
+<view class="container">
+  <view class='name-list'>
+    <view class='name-li' bindtap='detailslink' wx:for="{{listdata}}"  wx:for-index="{{index}}" data-name="{{item.name}}" data-score="{{item.score}}">
+      <view class='name-text'>
+        <view><text>{{lastname}}{{item.name}}</text><text>三才五格分数：{{item.score}}分</text></view>
+        <image src="../images/icon-r.png" mode="widthFix"></image>
+      </view>
+      <image src='../images/border.png'   mode="widthFix"></image>
+    </view>
+  </view>
+  <text class='no-more' wx:if='{{nomore}}'>没有更多了</text>
+</view>

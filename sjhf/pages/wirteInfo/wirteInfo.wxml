@@ -1,0 +1,32 @@
+<view class='package-detail'>
+  <view wx:if="{{isIos == 0}}">
+    <view wx:if="{{checked == 1}}">订单详情：{{price}}元<text>“{{title}}”</text>预约咨询服务（只咨询不恢复）</view>
+    <view wx:elif="{{checked == 2}}">订单详情：{{price}}元<text>“{{title}}”</text>排队恢复服务</view>
+    <view wx:else>订单详情：{{price}}元<text>“{{title}}”</text>人工加急服务</view>
+  </view>
+  <view wx:else>
+    <view wx:if="{{checked == 1}}">订单详情：{{price}}元<text>“{{title}}”</text>预约咨询服务（只咨询不恢复）</view>
+    <view wx:elif="{{checked == 2}}">订单详情：{{price}}元<text>“{{title}}”</text>排队恢复服务</view>
+    <view wx:else>订单详情：{{price}}元<text>“{{title}}”</text>人工加急服务</view>
+  </view>
+  <view class='price'>
+    订单金额：<text>￥{{price}}</text>  
+  </view>
+</view>
+
+<view class='setInfo'>
+  <text class='info-title'>订单信息</text>
+  <input type='text' placeholder='请填写您的手机号码' class='phone' type='number' bindchange="checkphone" maxlength="11" value="{{userphone}}" focus='{{focus}}'></input>
+</view>
+<view class='advice'>
+  <text class='advice-title'>提示：</text>
+  <text>1. 预约成功后请填写您的联系方式以便客服人员第一时间和您取得联系；</text>
+  <text>2. 预约后需要了解操作恢复步骤，可以随时咨询客服指导。</text>
+  <text>3. 客服人员和您取得联系需要一段时间，如果您需要立刻获取服务可以主动联系客服人员。</text>
+</view>
+<view class='buy'>
+  <view class='btn' bindtap='payNow'>
+    <image src='../../images/weipay.png'></image>
+    <text>支付</text>
+  </view>
+</view>

@@ -1,0 +1,70 @@
+/**index.wxss**/
+page{
+  background: #f6f6f6;
+}
+.banner,.banner image{
+  width: 750rpx;
+  height: 332rpx;
+}
+.msgtips{
+  height: 60rpx;
+  width: 100%;
+}
+.msgtips .itembox {
+  display: block;
+ font-size: 25rpx;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ letter-spacing: 2px;
+ height: 100%;
+ position: relative;
+ box-sizing: border-box;
+}
+.msgtips .itembox .time{
+  position: absolute;
+  right: 40rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.productlist{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top:1rpx solid #e2e2e2;
+  padding:35rpx 24rpx 0;
+}
+.productlist .itembox{
+  width: 234rpx;
+  text-align: center;
+  border-radius: 4rpx;
+  box-sizing: border-box;
+  margin-bottom:20rpx;
+}
+.productlist .itembox .icon{
+  display: block;
+  margin: 0 auto;
+}
+.productlist .itembox text{
+  font-size: 28rpx;
+  line-height: 48rpx;
+  color: #666;
+  display: block;
+  text-align: center;
+  margin-top:10rpx;
+}
+.msgtips .itembox{
+  display: flex;
+  align-items: center;
+  padding-left: 28rpx;
+  font-size: 24rpx;
+}
+.msgtips .itembox image{
+  width: 32rpx;
+  height: 28rpx;
+  margin-right: 24rpx;  
+}
+.msgtips .itembox .mob{
+  color: #FF7A5A;
+  margin-right: 40rpx;  
+}

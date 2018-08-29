@@ -1,0 +1,1213 @@
+ /* 编辑器首页 */
+ 
+ .editor-banner .banner-homepage-top .banner-slogan h1 {
+     font-size: 50px;
+ }
+ 
+ .editor-banner .banner-homepage-top .banner-slogan p {
+     padding: 1.8em 0 4em 0;
+     margin: 0;
+ }
+ 
+ .banner-btn {
+     overflow: hidden;
+ }
+ 
+ .btn-download-link {
+     width: 300px;
+     height: 64px;
+     float: left;
+     background-color: #ffffff;
+     border-radius: 6px;
+     font-size: 0;
+     text-align: center;
+ }
+ 
+ .btn-download-link span {
+     display: inline-block;
+     line-height: 64px;
+     padding-left: 36px;
+     background: url("../images/procut_icons/icon-dwon-blue.png") no-repeat left center;
+     color: #0977da;
+     font-size: 24px;
+ }
+ 
+ .btn-buy-link {
+     width: 160px;
+     height: 64px;
+     float: left;
+     margin-left: 15px;
+     background-color: #35ae52;
+     border-radius: 6px;
+     font-size: 0;
+     text-align: center;
+ }
+ 
+ .btn-buy-link span {
+     display: inline-block;
+     line-height: 64px;
+     padding-left: 36px;
+     background: url("../images/procut_icons/icon_manny.png") no-repeat left center;
+     color: #fff;
+     font-size: 24px;
+ }
+ 
+ .banner-homepage-wrapper.editor-banner,
+ .editor-banner .banner-homepage-top {
+     height: 560px;
+ }
+ 
+ .editor-banner .banner-homepage-top-1 {
+     background-color: #0e71bf;
+ }
+ 
+ .editor-banner .banner-homepage-top-2 {
+     background-color: #2b4dc1;
+ }
+ 
+ .editor-banner .banner-homepage-top-1 .banner-pic,
+ .editor-banner .banner-homepage-top-2 .banner-pic {
+     float: left;
+     width: 600px;
+     position: relative;
+     top: 0;
+     left: 0;
+     padding-top: 100px;
+ }
+ 
+ .editor-banner .banner-homepage-top .banner-slogan {
+     width: 600px;
+     float: left;
+ }
+ 
+ .editor-banner .banner-homepage-top .banner-pic img {
+     position: relative;
+ }
+ 
+ .editor-banner .banner-homepage-top.banner-homepage-top-1 .banner-pic img {
+     float: right;
+ }
+ 
+ .editor-banner .banner-homepage-top.banner-homepage-top-2 .banner-pic img {
+     float: left;
+ }
+ 
+ .editor-banner.banner-homepage-wrapper .pagination {
+     bottom: 35px;
+ }
+ 
+ .banner-slogan-right {
+     float: right;
+ }
+ 
+ .line-function {
+     background-color: #f6f6f6;
+ }
+ 
+ .line-function-center {
+     padding: 70px 0 50px 0;
+ }
+ 
+ .function-list {
+     overflow: hidden;
+ }
+ 
+ .function-list li {
+     width: 22%;
+     float: left;
+     margin-right: 4%;
+ }
+ 
+ .no-mr {
+     margin-right: 0!important;
+ }
+ 
+ .function-list li img {
+     display: block;
+     margin: 0 auto;
+     max-width: 100%;
+ }
+ 
+ .function-text {
+     margin-top: 70px;
+ }
+ 
+ .function-text h6 {
+     text-align: center;
+     font-size: 22px;
+     color: #333333;
+     font-weight: bold;
+     line-height: 1.4;
+     margin: 0;
+ }
+ 
+ .function-text p {
+     text-align: center;
+     font-size: 16px;
+     color: #666666;
+     line-height: 1.5;
+     margin-top: 25px;
+ }
+ 
+ .line-Skill-center {
+     padding: 60px 0 80px;
+ }
+ 
+ .line-Skill-center>h6 {
+     line-height: 1;
+     font-size: 36px;
+     color: #333;
+     text-align: center;
+     font-weight: bold;
+     padding-bottom: 30px;
+     position: relative;
+ }
+ 
+ .line-Skill-center>h6 i {
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     width: 44px;
+     height: 4px;
+     background-color: #0071ba;
+     margin: 0;
+     margin-left: -22px;
+ }
+ 
+ .line-Skill-center>p {
+     font-size: 20px;
+     color: #0e71bf;
+     text-align: center;
+     font-weight: bold;
+     margin: 0;
+     margin-top: 10px;
+     line-height: 1.5;
+ }
+ 
+ .Skill-text-img {
+     padding: 80px 0;
+     overflow: hidden;
+     border-bottom: 1px solid #ddd;
+ }
+ 
+ .Skill-text-img:last-child {
+     border-bottom: none;
+ }
+ 
+ .Skill-text {
+     float: left;
+     width: 43%;
+ }
+ 
+ .Skill-text p {
+     margin-top: 130px;
+     font-size: 22px;
+     color: #666;
+     line-height: 1.5;
+ }
+ 
+ .Skill-img {
+     float: left;
+     width: 57%;
+     overflow: hidden;
+ }
+ 
+ .text-r .Skill-img img {
+     float: left;
+ }
+ 
+ .text-l .Skill-img img {
+     float: right;
+ }
+ /* pdf转换器 */
+ /* banner */
+ 
+ .converter-banner {
+     height: 460px;
+     background: url("../images/dwon/banner-bg.jpg") no-repeat center bottom;
+     background-color: #0e71bf;
+ }
+ 
+ .converter-banner-center {
+     padding-top: 80px;
+ }
+ 
+ .converter-banner-text {
+     float: left;
+     padding-left: 50px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+ }
+ 
+ .converter-banner-text img {
+     display: block;
+ }
+ 
+ .text-list {
+     width: 400px;
+     overflow: hidden;
+     list-style-type: none;
+     margin-top: 10px;
+ }
+ 
+ .text-list li {
+     float: left;
+     padding-left: 18px;
+     position: relative;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     font-size: 16px;
+     color: #fff;
+     line-height: 28px;
+ }
+ 
+ .text-list li::before {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 50%;
+     width: 10px;
+     height: 10px;
+     margin-top: -5px;
+     border-radius: 10px;
+     background-color: #fff;
+ }
+ 
+ .banner-text-btn {
+     margin-top: 40px;
+     overflow: hidden;
+ }
+ 
+ .dwon-li {
+     float: left;
+     margin-right: 10px;
+ }
+ 
+ .dwon-li a {
+     display: block;
+     width: 250px;
+     background-color: #fff;
+     border-radius: 62px;
+     text-align: center;
+     font-size: 0;
+ }
+ 
+ .dwon-li a span {
+     display: inline-block;
+     padding-left: 36px;
+     font-size: 24px;
+     line-height: 62px;
+     font-weight: bold;
+     color: #3076d4;
+     background: url("../images/index/icon_dwon.png") no-repeat left center;
+ }
+ 
+ .dwon-li p {
+     font-size: 13px;
+     color: #8fc1f3;
+     text-align: center;
+     margin-top: 5px;
+     line-height: 1.5;
+ }
+ 
+ .banner-text>p {
+     line-height: 1.6;
+     font-size: 16px;
+     color: #fff;
+     width: 92%;
+ }
+ 
+ .converter-btn-link {
+     margin-top: 80px;
+     overflow: hidden;
+ }
+ 
+ .converter-btn-link .dwon-link {
+     width: 280px;
+     border-radius: 5px;
+     float: left;
+     height: 64px;
+     background: url("../images/dwon/dwon-btntext.png") no-repeat center center;
+     background-color: #fff;
+ }
+ 
+ .converter-btn-link .buy-link {
+     width: 160px;
+     height: 64px;
+     float: left;
+     margin-left: 15px;
+     background-color: #35ae52;
+     border-radius: 6px;
+     font-size: 0;
+     text-align: center;
+ }
+ 
+ .converter-btn-link .buy-link span {
+     display: inline-block;
+     line-height: 64px;
+     padding-left: 36px;
+     background: url(../images/procut_icons/icon_manny.png) no-repeat left center;
+     color: #fff;
+     font-size: 24px;
+ }
+ 
+ .converter-banner-pic {
+     float: left;
+ }
+ 
+ .converter-banner-pic.banner-homepage-top-1 {
+     background: none;
+ }
+ 
+ .converter-banner-pic.banner-homepage-top-1 .banner-pic {
+     position: relative;
+     text-align: right;
+ }
+ 
+ .converter-banner-pic.banner-homepage-top-1 .banner-pic img {
+     max-width: 100%;
+ }
+ 
+ .pic-pc-frame {
+     position: relative!important;
+     display: block;
+ }
+ 
+ .line-converter {
+     background-color: #f6fafc;
+ }
+ 
+ .line-converter-center {
+     padding: 40px 0 45px 0;
+ }
+ 
+ .line-converter-center>h6 {
+     font-size: 30px;
+     line-height: 40px;
+     color: #333;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .line-converter-ctt {
+     margin-top: 50px;
+ }
+ 
+ .converter-function-list {
+     overflow: hidden;
+     margin-bottom: 35px;
+ }
+ 
+ .converter-function-li {
+     width: 48%;
+     margin-right: 4%;
+     background-color: #fff;
+     border-radius: 8px;
+     padding: 35px 35px 28px;
+     vertical-align: top;
+     float: left;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+ }
+ 
+ .converter-function-li.no-mr {
+     margin-right: 0;
+ }
+ 
+ .converter-function-title {
+     float: left;
+ }
+ 
+ .converter-function-title h6 {
+     font-size: 20px;
+     text-align: center;
+     color: #333;
+     font-weight: bold;
+     line-height: 1;
+     margin: 0;
+ }
+ 
+ .converter-function-title p {
+     font-size: 31px;
+     text-align: center;
+     color: #b2dafd;
+     line-height: 1;
+     margin: 10px 0 0;
+ }
+ 
+ .converter-function-link {
+     margin-left: 150px;
+ }
+ 
+ .converter-function-link a {
+     width: 154px;
+     border: 1px solid #c9c9c9;
+     float: left;
+     line-height: 30px;
+     color: #666666;
+     text-align: center;
+     margin-left: 22px;
+     margin-bottom: 7px;
+     text-decoration: none;
+     position: relative;
+ }
+ 
+ .converter-function-link a i {
+     position: absolute;
+     width: 35px;
+     height: 13px;
+     top: -13px;
+     right: -1px;
+     background: url("../images/dwon/icon-new.png") no-repeat;
+ }
+ 
+ .converter-function-link a:hover {
+     background-color: #eaf4ff;
+     border: 1px solid #6eaeef;
+ }
+ /* .converter-function-link a.bd-cl1 {
+     background-color: #eaf4ff;
+     border: 1px solid #6eaeef;
+ }
+ 
+ .converter-function-link a.bd-cl2 {
+     background-color: #eeffea;
+     border: 1px solid #4abb2c;
+ } */
+ 
+ .height-auto {
+     margin-left: 22px;
+     margin-bottom: 7px;
+     height: 32px;
+     float: left;
+     width: 156px;
+ }
+ 
+ .converter-ask {
+     position: relative;
+     background-color: #f6fafc;
+ }
+ 
+ .converter-ask-center {
+     padding-bottom: 85px;
+     position: relative;
+     z-index: 2;
+ }
+ 
+ .converter-ask-bg {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color: #0071bf;
+     height: 188px;
+ }
+ 
+ .converter-ask-pd {
+     border-radius: 6px;
+     background-color: rgba(255, 255, 255, .4);
+     padding: 15px;
+ }
+ 
+ .converter-ask-ctt {
+     border-radius: 5px;
+     background-color: #fff;
+     padding: 30px 40px 40px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+ }
+ 
+ .converter-ask-ctt>h6 {
+     font-size: 40px;
+     text-align: center;
+     margin: 0;
+     color: #333;
+ }
+ 
+ .converter-ask-list {
+     overflow: hidden;
+     margin-top: 35px;
+ }
+ 
+ .converter-ask-li {
+     width: 50%;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     padding: 0 40px;
+     float: left;
+     overflow: hidden;
+ }
+ 
+ .converter-ask-li h6 {
+     color: #666;
+     font-size: 16px;
+     line-height: 1.5;
+     padding: 2px 0;
+     margin: 0;
+ }
+ 
+ .converter-ask-li p {
+     color: #666;
+     font-size: 16px;
+     line-height: 1.5;
+     padding: 2px 0;
+     margin: 0;
+ }
+ 
+ .converter-ask-li a {
+     float: right;
+     width: 100px;
+     padding: 0 8px;
+     line-height: 30px;
+     color: #666666;
+     margin-top: 20px;
+ }
+ 
+ .converter-ask-li a.stye1 {
+     border: 1px solid #6eaeef;
+     background-color: #eaf4ff;
+ }
+ 
+ .converter-ask-li a.stye2 {
+     border: 1px solid #4abb2c;
+     background-color: #eeffea;
+ }
+ 
+ .converter-ask-li.border {
+     border-right: 1px dashed #cbcbcb;
+ }
+ /* 下载首页 */
+ 
+ .dwon-banner {
+     height: 90px;
+     background: url("../images/dwon/dwon-banner.jpg") no-repeat top center;
+ }
+ 
+ .dwon-banner-center {
+     padding-top: 30px;
+ }
+ 
+ .dwon-banner-center h6 {
+     font-size: 28px;
+     line-height: 1.5;
+     padding-left: 30px;
+     margin-left: 100px;
+     background: url("../images/dwon/icon-dwon.png") no-repeat left center;
+     color: #fff;
+     font-weight: bold;
+ }
+ 
+ .dwon-banner-center h6 span {
+     font-size: 16px;
+     display: inline-block;
+     margin-left: 10px;
+     font-weight: normal;
+ }
+ 
+ .dwon-list {
+     padding: 30px 0 50px;
+ }
+ 
+ .dwon-type-li {
+     border: 1px solid #eaeaea;
+     background: #f7f7f7;
+     padding: 2px 55px;
+     overflow: hidden;
+     margin-bottom: 10px;
+ }
+ 
+ .dwon-type-li:hover {
+     border: 3px solid #54a1ff;
+     padding: 0 53px;
+     background-color: #fff;
+ }
+ 
+ .dwon-li-text {
+     width: 70%;
+     float: left;
+     padding: 13px 0;
+     padding-left: 150px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+ }
+ 
+ .dwon-li-text.shu-1 {
+     background: url("../images/dwon/shu-1.png") no-repeat left center;
+ }
+ 
+ .dwon-li-text.shu-2 {
+     background: url("../images/dwon/shu-2.png") no-repeat left center;
+ }
+ 
+ .dwon-li-text.shu-3 {
+     background: url("../images/dwon/shu-3.png") no-repeat left center;
+ }
+ 
+ .dwon-li-text.shu-4 {
+     background: url("../images/dwon/shu-4.png") no-repeat left center;
+ }
+ 
+ .dwon-li-text.shu-5 {
+     background: url("../images/dwon/shu-5.png") no-repeat left center;
+ }
+ 
+ .dwon-li-text h6 {
+     font-size: 22px;
+     color: #333333;
+     line-height: 1.5;
+     font-weight: bold;
+ }
+ 
+ .dwon-li-text p {
+     font-size: 14px;
+     color: #4a4a4a;
+     line-height: 1.5;
+     margin-top: 5px;
+ }
+ 
+ .dwon-li-text span {
+     font-size: 14px;
+     color: #666666;
+     line-height: 1.5;
+     margin-top: 35px;
+     display: block;
+ }
+ 
+ .dwon-li-btn {
+     width: 30%;
+     float: left;
+     text-align: right;
+     line-height: 162px;
+ }
+ 
+ .dwon-inline {
+     display: inline-block;
+ }
+ 
+ .dwon-inline a {
+     width: 210px;
+     line-height: 46px;
+     border: 1px solid #3076d4;
+     color: #3076d4;
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+     display: block;
+     border-radius: 48px;
+     max-width: 100%;
+ }
+ 
+ .dwon-inline a:hover {
+     background-color: #3076d4;
+     color: #fff;
+ }
+ 
+ .dwon-inline a:active {
+     background-color: #2771d5;
+     color: #fff;
+ }
+ 
+ .dwon-inline.no-line {
+     line-height: 0;
+     vertical-align: middle;
+ }
+ 
+ .dwon-inline.no-line>a+a {
+     margin-top: 10px;
+ }
+ 
+ .ocr-Support {
+     padding: 40px 0;
+ }
+ 
+ .ocr-Support-center>h6 {
+     font-size: 36px;
+     color: #333333;
+     line-height: 1.4;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .ocr-Support-list {
+     overflow: hidden;
+     padding-bottom: 35px;
+ }
+ 
+ .ocr-Support-list li {
+     width: 31%;
+     float: left;
+     margin-right: 3.5%;
+     margin-top: 45px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     border: 1px solid #dddddd;
+     font-size: 0;
+     text-align: center;
+ }
+ 
+ .ocr-Support-list li.active {
+     background-color: #daeeff;
+ }
+ 
+ .ocr-Support-list li:hover {
+     background-color: #daeeff;
+ }
+ 
+ .ocr-Support-list li.no-mr {
+     margin-right: 0;
+ }
+ 
+ .ocr-Support-list li span {
+     display: inline-block;
+     padding-left: 90px;
+     font-size: 22px;
+     color: #333333;
+     line-height: 88px;
+ }
+ 
+ .ocr-Support-list li span.icon-zc1 {
+     background: url("../images/dwon/ocr-zc1.png") no-repeat left center;
+ }
+ 
+ .ocr-Support-list li span.icon-zc2 {
+     background: url("../images/dwon/ocr-zc2.png") no-repeat left center;
+ }
+ 
+ .ocr-Support-list li span.icon-zc3 {
+     background: url("../images/dwon/ocr-zc3.png") no-repeat left center;
+ }
+ 
+ .ocr-Support-list li span.icon-zc4 {
+     background: url("../images/dwon/ocr-zc4.png") no-repeat left center;
+ }
+ 
+ .ocr-Support-list li span.icon-zc5 {
+     background: url("../images/dwon/ocr-zc5.png") no-repeat left center;
+ }
+ 
+ .ocr-Support-list li span.icon-zc6 {
+     background: url("../images/dwon/ocr-zc6.png") no-repeat left center;
+ }
+ 
+ .ocr-img-text {
+     padding: 70px 0;
+     border-top: 1px solid #dddddd;
+     display: none;
+ }
+ 
+ .ocr-img-text.active {
+     display: block;
+ }
+ 
+ .ocr-text {
+     padding-right: 30px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+ }
+ 
+ .ocr-text h6 {
+     font-size: 36px;
+     line-height: 1.5;
+     color: #333;
+ }
+ 
+ .ocr-text p {
+     font-size: 20px;
+     line-height: 1.5;
+     color: #333;
+     margin-top: 60px;
+ }
+ 
+ .dwon-btn {
+     display: block;
+     margin-top: 60px;
+     font-size: 24px;
+     font-weight: bold;
+     color: #0977da;
+     text-align: center;
+     border: 1px solid #0266ba;
+     line-height: 60px;
+     border-radius: 62px;
+     width: 248px;
+ }
+ 
+ .dwon-btn:hover {
+     background-color: #3076d4;
+     color: #fff;
+ }
+ 
+ .ocr-img img {
+     max-width: 100%;
+ }
+ 
+ .ocr-imgbg {
+     padding: 60px 0;
+     background: url("../images/dwon/ocr-bg.png") no-repeat top center;
+ }
+ 
+ .ocr-imgbg-center h6 {
+     font-size: 36px;
+     color: #fff;
+     line-height: 1.4;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .ocr-imgbg-center p {
+     font-size: 18px;
+     color: #fff;
+     line-height: 1.5;
+     text-align: center;
+     margin-top: 25px;
+ }
+ 
+ .ocr-imgbg-center img {
+     display: block;
+     margin: 30px auto 0;
+ }
+ 
+ .ocr-imgbg-center a {
+     width: 248px;
+     line-height: 62px;
+     background-color: #fff;
+     text-align: center;
+     display: block;
+     margin: 40px auto 0;
+     font-size: 24px;
+     color: #0977da;
+     border-radius: 62px;
+ }
+ 
+ .ocr-imgbg-center a:hover {
+     background-color: #f0f0f0;
+ }
+ 
+ .ocr-imgbg-center a:active {
+     background-color: #fff;
+ }
+ /* 打印机 */
+ 
+ .Printer-img-text {
+     padding: 55px 0 60px;
+ }
+ 
+ .Printer-img img {
+     max-width: 100%;
+ }
+ 
+ .Printer-text {
+     padding: 0 48px;
+     padding-top: 65px;
+ }
+ 
+ .Printer-text h6 {
+     font-size: 20px;
+     color: #333333;
+     line-height: 1.8;
+ }
+ 
+ .Printer-text p {
+     font-size: 16px;
+     color: #888888;
+     line-height: 1.8;
+ }
+ 
+ .Printer-text .dwon-btn {
+     margin-top: 30px
+ }
+ 
+ .Printer-img-text.border-bt {
+     border-bottom: 1px dashed #cccccc;
+ }
+ 
+ .Printer-imgbg {
+     padding: 50px 0;
+     background: url("../images/dwon/dayinji-2.jpg") no-repeat top center;
+ }
+ 
+ .Printer-imgbg-center h6 {
+     font-size: 28px;
+     font-weight: bold;
+     color: #fff;
+     text-align: center;
+     line-height: 1.5;
+ }
+ 
+ .Printer-imgbg-center p {
+     font-size: 16px;
+     color: #eee;
+     text-align: center;
+     line-height: 1.5;
+     margin-top: 10px;
+ }
+ 
+ .Printer-imgbg-btn {
+     margin-top: 65px;
+ }
+ 
+ .Printer-imgbg-btn a {
+     width: 248px;
+     line-height: 62px;
+     background-color: #fff;
+     text-align: center;
+     display: block;
+     margin: 0 auto;
+     font-size: 24px;
+     color: #0977da;
+     border-radius: 62px;
+ }
+ 
+ .Printer-imgbg-btn a:hover {
+     background-color: #f0f0f0;
+ }
+ 
+ .Printer-imgbg-btn a:active {
+     background-color: #fff;
+ }
+ 
+ .Printer-imgbg-btn p {
+     font-size: 13px;
+     text-align: center;
+     color: #fff;
+     line-height: 1.5;
+     margin-top: 5px;
+ }
+ 
+ .Printer-text div a {
+     float: left;
+ }
+ 
+ .Printer-text div a+a {
+     margin-left: 8px;
+ }
+ 
+ .ocr-Support-center>h6 {
+     font-size: 36px;
+     color: #333333;
+     text-align: center;
+     font-weight: bold;
+     margin-top: 40px;
+ }
+ 
+ .caj-dwon-center {
+     padding: 40px 0 60px;
+     border-top: 1px solid #dddddd;
+ }
+ 
+ .caj-dwon-center>h6 {
+     font-size: 36px;
+     color: #333333;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .caj-dwon-center>p {
+     font-size: 16px;
+     color: #888888;
+     text-align: center;
+     line-height: 1.8;
+     margin-top: 10px;
+ }
+ 
+ .caj-dwon-btn {
+     text-align: center;
+ }
+ 
+ .caj-dwon-btn div {
+     display: inline-block;
+ }
+ 
+ .caj-dwon-btn div+div {
+     margin-left: 36px;
+ }
+ 
+ .caj-dwon-btn p {
+     font-size: 13px;
+     color: #0977da;
+     text-align: center;
+     line-height: 1.5;
+     margin-top: 10px;
+ }
+ 
+ .caj-dwon-btn .dwon-btn {
+     margin-top: 35px;
+ }
+ 
+ @media (max-width: 1240px) {
+     .editor-banner .banner-text h6 {
+         font-size: 40px;
+     }
+     .Skill-text {
+         width: 40%;
+         margin-left: 3%;
+     }
+     .Skill-text p {
+         margin-top: 80px;
+     }
+     .function-text h6 {
+         font-size: 18px;
+     }
+     .function-text p {
+         font-size: 14px;
+     }
+ }
+ 
+ @media (max-width: 1000px) {
+     .editor-banner .banner-text h6 {
+         font-size: 30px;
+         padding-left: 45px;
+     }
+     .editor-banner .banner-text h6.lg2,
+     .editor-banner .banner-text h6.lg4 {
+         background-size: 32px;
+     }
+     .editor-banner .banner-text>p {
+         font-size: 16px;
+     }
+     .ocr-Support-list li {
+         width: 46%;
+         margin: 20px 2%!important;
+     }
+ }
+ 
+ @media (max-width: 850px) {
+     .converter-banner {
+         height: auto;
+         background-size: cover;
+     }
+     .converter-banner-text,
+     .converter-banner-pic {
+         width: 100%;
+     }
+     .converter-Product-list {
+         margin-top: 30px;
+     }
+     .converter-Product-list li {
+         width: 46%;
+         margin: 10px 2%;
+     }
+     .converter-function-li {
+         width: 100%;
+         margin: 10px 0;
+     }
+     .Skill-img {
+         width: 100%;
+         text-align: center;
+     }
+     .text-r .Skill-img img,
+     .text-l .Skill-img img {
+         float: none;
+     }
+     .Skill-text {
+         width: 100%;
+         text-align: center;
+         margin-top: 0;
+     }
+     .text-r .Skill-img img {
+         margin-bottom: 20px;
+     }
+     .text-l .Skill-img img {
+         margin-top: 20px;
+     }
+     .Skill-text p {
+         margin-top: 0;
+     }
+     .Skill-text-img {
+         padding: 30px 0;
+     }
+     .Skill-text p {
+         font-size: 16px;
+     }
+     .function-list li {
+         width: 46%;
+         margin: 20px 2%;
+     }
+     .function-text p {
+         min-height: 63px;
+     }
+     .function-text {
+         margin-top: 30px;
+     }
+ }
+ 
+ @media (max-width: 750px) {
+     .dwon-li-text {
+         width: 100%;
+     }
+     .dwon-li-text {
+         padding-left: 110px;
+         float: none;
+     }
+     .dwon-li-btn {
+         margin-left: 110px;
+         line-height: 1;
+         margin-bottom: 13px;
+         width: auto;
+         float: none;
+     }
+     .dwon-type-li {
+         padding: 2px 20px;
+     }
+     .dwon-type-li:hover {
+         border: 3px solid #54a1ff;
+         padding: 0 18px;
+     }
+     .dwon-inline {
+         display: block;
+     }
+     .dwon-inline a {
+         max-width: 100%;
+     }
+     .dwon-banner-center h6 {
+         margin-left: 0;
+         background: url(../images/dwon/icon-dwon.png) no-repeat left top;
+         background-position-y: 10px;
+     }
+     .dwon-banner-center {
+         padding-top: 0;
+     }
+     .function-text p {
+         min-height: 84px;
+     }
+ }
+ 
+ @media (max-width: 640px) {
+     .converter-function-link {
+         margin-left: 0;
+         float: left;
+         margin-top: 30px;
+     }
+     .converter-Product-list li {
+         width: 100%;
+         margin: 10px 0;
+     }
+     .converter-ask-li {
+         width: 100%;
+         padding: 30px 0;
+     }
+     .converter-ask-li.border {
+         border-bottom: 1px dashed #cbcbcb;
+         border-right: none;
+     }
+     .function-list li {
+         width: 100%;
+         margin: 20px 0;
+     }
+     .editor-banner .banner-text {
+         padding-left: 0;
+     }
+     .ocr-Support-list li {
+         width: 100%;
+         margin: 10px 0!important;
+     }
+     .converter-function-li {
+         padding: 35px 15px 28px;
+     }
+     .converter-function-link a {
+         margin: 4px;
+     }
+ }

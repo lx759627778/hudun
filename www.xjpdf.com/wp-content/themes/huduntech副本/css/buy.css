@@ -1,0 +1,447 @@
+/* 购买页 */
+
+.editor-buy-form {
+    background-color: #f2f9ff;
+    padding-bottom: 20px;
+}
+
+.buy-form-li.bg-2c50c7 {
+    background-color: #2c50c7;
+}
+
+.editor-buy-center>h6 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.buy-img-text {
+    overflow: hidden;
+}
+
+.buy-img {
+    float: left;
+    width: 50%;
+}
+
+.buy-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.buy-text {
+    float: left;
+    width: 50%;
+}
+
+.buy-text>h6 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.buy-text-p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.buy-text-p span {
+    color: #ff7373;
+}
+
+.buy-text-p1 {
+    margin: 0;
+    margin-top: 15px;
+    line-height: 1;
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    font-weight: normal;
+}
+
+.buy-text-p1 span {
+    font-size: 18px;
+}
+
+.buy-slt-box {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.buy-slt-box a {
+    border: 1px solid #fff;
+    width: 230px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+}
+
+.buy-slt-box a span {
+    line-height: 40px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.buy-slt-box a em {
+    width: 34px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url("../images/procut_icons/icon-slt.png") no-repeat center center;
+    background-size: 100%;
+    display: none;
+}
+
+.buy-slt-box a.hot-Setmeal span {
+    padding-left: 25px;
+    background: url("../images/procut_icons/icon_hot.png") no-repeat left center;
+}
+
+.buy-slt-box a.active em {
+    display: block;
+}
+
+.buy-slt-box a.active {
+    background-color: #fa7804;
+    border: 1px solid #fa7804;
+}
+
+.buy-step-li {
+    margin-bottom: 0;
+}
+
+.buy-step-li>h6 {
+    padding: 20px 0 14px 0;
+    border-bottom: 1px solid #ddd;
+    line-height: 1;
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.buy-step-slt {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.buy-step-slt input {
+    width: 32%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    padding: 10px 15px 10px 50px;
+    color: #333;
+    float: left;
+    margin-right: 3.2%;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buy-step-slt input.icon-name {
+    background: url("../images/procut_icons/icon-name.png") no-repeat left 15px center;
+}
+
+.buy-step-slt input.icon-phone {
+    background: url("../images/procut_icons/icon_phone.png") no-repeat left 15px center;
+}
+
+.buy-step-slt a {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    float: left;
+    margin-right: 40px;
+    border: 2px solid #b4c6ea;
+    position: relative;
+}
+
+.buy-step-slt a.pay-WeChat {
+    background: url("../images/procut_icons/icon-wx.png") no-repeat center center;
+}
+
+.buy-step-slt a.pay-Alipay {
+    background: url("../images/procut_icons/icon-zfb.png") no-repeat center center;
+}
+
+.buy-step-slt a em {
+    width: 44px;
+    height: 36px;
+    background: url("../images/procut_icons/icon-slt-blue.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+    z-index: 0;
+}
+
+.buy-step-slt a.active {
+    border: 2px solid #5e8fdc;
+}
+
+.buy-step-slt a.active em {
+    display: block;
+}
+
+.buy-step-slt button {
+    width: 374px;
+    border: 1px solid #04508c;
+    line-height: 68px;
+    font-size: 26px;
+    color: #fff;
+    background-color: #0ab4ff;
+    box-shadow: 0 0 5px #0ab4ff;
+    margin-left: 5px;
+}
+
+.step-li-bd {
+    background: url("../images/editor/border.png") no-repeat top center;
+}
+
+.step-li-bd .buy-step-slt {
+    overflow: auto;
+}
+
+.line-buy.bg-f4f4f4 {
+    background-color: #f4f4f4;
+}
+
+.line-buy.bg-f6f6f6 {
+    background-color: #f6f6f6;
+}
+
+.line-buy-center {
+    padding: 60px 0 65px 0;
+}
+
+.line-buy-center.buy-pd {
+    padding: 30px 0 65px 0;
+}
+
+.line-buy-center>h6 {
+    text-align: center;
+    font-size: 0;
+    margin: 0;
+}
+
+.line-buy-center>h6 span {
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.line-buy-center>h6 em {
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: -20px;
+}
+
+.line-buy-center>h6 em.h-l {
+    background: url("../images/editor/h-l.png") no-repeat center center;
+}
+
+.line-buy-center>h6 em.h-r {
+    background: url("../images/editor/h-r.png") no-repeat center center;
+}
+
+.line-buy-ctt {
+    margin-top: 55px;
+}
+
+.line-buy-center.buy-pd .line-buy-ctt {
+    margin-top: 30px;
+}
+
+.Setmeal-table {
+    margin-right: -3px;
+    display: block;
+}
+
+.Setmeal-table-tr {
+    width: 25%;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dddcdb;
+    margin-left: -1px;
+    margin-bottom: 10px;
+}
+
+.Setmeal-table-th {
+    width: 25%;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dddcdb;
+}
+
+.Setmeal-table-tr:hover {
+    background: #d2ebff;
+    padding: 5px 0;
+    position: relative;
+    top: -5px;
+    border: 1px solid #a9d9ff;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.Setmeal-table-tr:hover .td-bg {
+    background-color: #c4e3fc;
+}
+
+.Setmeal-table-tr:hover .Setmeal-table-td.td-bg p {
+    color: #0e71bf;
+}
+
+.Setmeal-table-tr:hover .Setmeal-table-td button {
+    color: #fff;
+    background-color: #0e71bf;
+}
+
+.Setmeal-table-td {
+    padding: 20px 24px;
+}
+
+.Setmeal-table-td p {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    line-height: 30px;
+    height: 30px;
+}
+
+.Setmeal-table-td p.setmeal-p-h {
+    line-height: 376px;
+    height: 376px;
+}
+
+.font-24 {
+    font-size: 24px!important;
+}
+
+.font-26 {
+    font-size: 26px!important;
+}
+
+.td-bg {
+    background-color: #fbf9f8;
+}
+
+.Setmeal-table-td button {
+    width: 80%;
+    border: 1px solid #0e71bf;
+    color: #0e71bf;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    margin: 0 auto;
+    background: none;
+    padding: 0;
+    display: block;
+}
+
+.setmeal-th .Setmeal-table-td button {
+    border: 1px solid #333;
+    color: #333;
+}
+
+.Setmeal-table-td p.Setmeal-lg {
+    padding: 22px 0 22px 60px;
+    line-height: 50px;
+    height: auto;
+    color: #333333;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg1 {
+    background: url("../images/editor/icon-logo-1.png") no-repeat left center;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg2 {
+    background: url("../images/editor/icon-logo-2.png") no-repeat left center;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg3 {
+    background: url("../images/editor/icon-logo-3.png") no-repeat left center;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg4 {
+    background: url("../images/editor/icon-logo-4.png") no-repeat left center;
+    line-height: 25px;
+}
+
+.Setmeal-table-td.height-td {
+    height: 376px;
+}
+
+.Setmeal-table-td p span.icon-Set1 {
+    padding-left: 35px;
+    background: url("../images/editor/icon-dcdj1.png") no-repeat left center;
+}
+
+.Setmeal-table-td p span.icon-Set2 {
+    padding-left: 35px;
+    background: url("../images/editor/icon-dcdj2.png") no-repeat left center;
+}
+
+.Setmeal-table-td p span.icon-Set3 {
+    padding-left: 35px;
+    background: url("../images/editor/icon-dcdj3.png") no-repeat left center;
+}
+
+.Becareful-box p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.After-sale-list li {
+    position: relative;
+}
+
+.After-sale-list li img {
+    display: block;
+    max-width: 100%;
+}
+
+.After-sale-list li p {
+    position: absolute;
+    top: 90%;
+    line-height: 1;
+    font-size: 24px;
+    color: #333333;
+    margin-top: -12px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}

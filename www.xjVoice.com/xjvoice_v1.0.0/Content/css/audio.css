@@ -1,0 +1,696 @@
+/* 文字转语音 */
+
+.switch-progress {
+    padding: 60px 0;
+}
+
+.progress-step {
+    display: block;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.progress-step li {
+    width: 33.33%;
+    float: left;
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+}
+
+.progress-step li div.step-1,
+.progress-step li div.step-2,
+.progress-step li div.step-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -32px;
+    margin-top: -12px;
+}
+
+.progress-step li div.step-4 {
+    position: absolute;
+    top: 0;
+    right: 0!important;
+    margin-right: -32px;
+    margin-top: -12px;
+}
+
+.progress-step li div i {
+    width: 23px;
+    height: 23px;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/index/step-icon1.png") no-repeat center center;
+}
+
+.progress-step li div i.icon-ing {
+    background: url("../images/index/step-icon2.png") no-repeat center center;
+}
+
+.progress-step li div i.icon-finish {
+    background: url("../images/index/step-icon3.png") no-repeat center center;
+}
+
+.progress-step li div p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+}
+
+.step-li {
+    margin-top: 70px;
+    padding-bottom: 45px;
+}
+
+.words-from {
+    width: 92%;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 25px 30px;
+}
+
+.words-title {
+    width: 50%;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    color: #333;
+    outline: none;
+}
+
+.words-text {
+    padding: 20px;
+    display: block;
+    border: none;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    outline: none;
+    width: 100%;
+    resize: vertical;
+}
+
+.voice-selector {
+    margin-top: 20px;
+}
+
+.voice-selector-list {
+    float: left;
+    font-size: 0;
+}
+
+.voice-selector-list h6 {
+    line-height: 54px;
+    color: #323232;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.voice-selector-list label {
+    line-height: 54px;
+    color: #323232;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.voice-selector button {
+    width: 190px;
+    border: 1px solid #158afd;
+    font-size: 20px;
+    color: #fff;
+    background-color: #158afd;
+    border-radius: 3px;
+    line-height: 32px;
+    padding: 10px 0;
+    box-shadow: 0 5px 20px #bedbf7;
+    float: left;
+}
+
+.voice-selector button:hover {
+    background-color: #2e97ff;
+}
+
+.voice-selector button:active {
+    background-color: #157de5;
+}
+
+.step-payment {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.step-payment-nub {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+
+.step-payment-table {
+    margin-top: 25px;
+    width: 100%;
+    border-top: 2px solid #158afd;
+}
+
+.step-payment-table thead {
+    background: #eef7ff;
+}
+
+.step-payment-table th {
+    padding: 10px 5px;
+    line-height: 30px;
+}
+
+.step-payment-table td {
+    padding: 15px 5px;
+    line-height: 30px;
+}
+
+.step-payment-table tbody td {
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: middle;
+}
+
+.step-payment-table th.w100 {
+    width: 100px;
+}
+
+.step-payment-table th.w160 {
+    width: 160px;
+}
+
+.pay-money {
+    float: left;
+    line-height: 54px;
+    font-size: 16px;
+    color: #333;
+    margin-right: 20px;
+}
+
+.pay-money span {
+    font-size: 28px;
+    color: #fc0d05;
+}
+
+.Payment-method-slt {
+    padding: 15px 20px;
+    border: 2px solid #158afd;
+    border-radius: 4px;
+}
+
+.Payment-method-slt h6 {
+    line-height: 34px;
+    color: #158afd;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.Payment-method-slt label {
+    line-height: 34px;
+    color: #323232;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.Payment-method p {
+    font-size: 16px;
+    color: #158afd;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.step-transition {
+    padding-top: 50px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.step-transition img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pay-Success-p {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.line-up-p {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.line-up-time {
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.transition-tab {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 0;
+}
+
+.transition-tab button {
+    width: 190px;
+    border: 1px solid #158afd;
+    font-size: 20px;
+    color: #fff;
+    background-color: #158afd;
+    border-radius: 3px;
+    line-height: 32px;
+    padding: 10px 0;
+    box-shadow: 0 5px 20px #bedbf7;
+    display: inline-block;
+}
+
+.transition-tab button:hover {
+    background-color: #2e97ff;
+}
+
+.transition-tab button:active {
+    background-color: #157de5;
+}
+
+.transition-tab button.mr-50 {
+    margin-right: 50px;
+}
+
+.dwon-file-btn {
+    width: 100px;
+    font-size: 0px;
+    background-color: #158afd;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    height: 36px;
+}
+
+.dwon-file-btn span {
+    padding-left: 20px;
+    background: url("../images/index/icon-dwon.png") no-repeat left center;
+    line-height: 36px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+}
+
+.dwon-file-btn.dwon-ing {
+    background-color: #c3c3c3;
+}
+
+.dwon-file-btn.dwon-ing span {
+    padding-left: 0;
+    background: none;
+}
+
+.dwon-file-btn.dwon-finish span {
+    padding-left: 0;
+    background: none;
+}
+
+.upload-Audio-prompt {
+    font-size: 16px;
+    color: #787878;
+    line-height: 1.8;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.upload-box {
+    display: inline-block;
+    position: relative;
+}
+
+.upload-box input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 提示弹窗 */
+
+.Prompt-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.Prompt-pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    margin-top: -120px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ccc;
+    z-index: 101;
+    display: none;
+}
+
+.Prompt-header {
+    padding: 0 10px;
+    position: relative;
+}
+
+.Prompt-header h6 {
+    font-size: 20px;
+    color: #333;
+    line-height: 52px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.Prompt-header i {
+    position: absolute;
+    right: 4px;
+    top: 12px;
+    width: 28px;
+    height: 28px;
+    background: url("../images/index/pop-close.png") no-repeat center center;
+}
+
+.Prompt-header i:hover {
+    background-color: #e7f3ff;
+}
+
+.Prompt-header i:active {
+    background-color: #cde6ff;
+}
+
+.Prompt-ctt {
+    padding: 30px 10px;
+}
+
+.Prompt-p {
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.Prompt-btn {
+    width: 156px;
+    border: 1px solid #158afd;
+    font-size: 20px;
+    color: #fff;
+    background-color: #158afd;
+    border-radius: 3px;
+    line-height: 44px;
+    display: block;
+    margin: 25px auto 0;
+    outline: none;
+}
+
+
+/*  */
+
+.Upload-video-progress {
+    width: 82.5%;
+    margin: 0 auto;
+}
+
+.Upload-video-h {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+
+.Upload-video-li {
+    padding: 20px 40px 30px 70px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+}
+
+.Upload-video-li.icon-wma {
+    background: url("../images/index/video-type1.png") no-repeat left center;
+}
+
+.Upload-video-li.icon-m4a {
+    background: url("../images/index/video-type2.png") no-repeat left center;
+}
+
+.Upload-video-li.icon-pcm {
+    background: url("../images/index/video-type3.png") no-repeat left center;
+}
+
+.Upload-video-li.icon-wav {
+    background: url("../images/index/video-type4.png") no-repeat left center;
+}
+
+.Upload-video-li.icon-mp3 {
+    background: url("../images/index/video-type5.png") no-repeat left center;
+}
+
+.Upload-video-text {
+    overflow: hidden;
+}
+
+.Upload-video-text p {
+    line-height: 44px;
+    color: #323232;
+    font-size: 16px;
+    float: left;
+}
+
+.Upload-video-text span {
+    line-height: 44px;
+    color: #323232;
+    font-size: 16px;
+    float: right;
+}
+
+.upload-success .Upload-video-text span {
+    padding-left: 30px;
+    background: url("../images/index/icon-sccg.png") no-repeat left center;
+    color: #158afd;
+}
+
+.upload-fail .Upload-video-text span {
+    padding-left: 30px;
+    background: url("../images/index/icon-scsb.png") no-repeat left center;
+    color: #ffbe58;
+}
+
+.upload-wait .Upload-video-text span {
+    color: #787878;
+}
+
+.progress-bg {
+    height: 4px;
+    border-radius: 4px;
+    background-color: #e4e4e4;
+}
+
+.progress-scale {
+    height: 4px;
+    background-color: #158afd;
+}
+
+.upload-fail .progress-scale {
+    background-color: #ffbe58;
+}
+
+.upload-success .progress-scale {
+    background-color: #158afd;
+    width: 100%;
+}
+
+.upload-wait .progress-scale {
+    width: 0;
+}
+
+.upload-wait .Upload-video-text p {
+    opacity: .5;
+}
+
+.remove-video {
+    position: absolute;
+    top: 26px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/icon-remove.png") no-repeat right center;
+    cursor: pointer;
+}
+
+.step-payment-table tbody td .video-name {
+    padding-left: 40px;
+    line-height: 33px;
+    background: url("../images/index/icon-video.png") no-repeat left center;
+}
+
+.step-audio-Result {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.step-audio-h {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #323232;
+}
+
+.audio-Result-ctt {
+    margin-top: 25px;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 30px 30px 20px;
+}
+
+.audio-Result-text h6 {
+    font-size: 30px;
+    line-height: 1.5;
+    color: #323232;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.audio-Result-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #323232;
+}
+
+.audio-Result-text a {
+    width: 190px;
+    font-size: 0px;
+    background-color: #158afd;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    margin: 25px auto 0;
+}
+
+.audio-Result-text a:hover {
+    background-color: #2e97ff;
+}
+
+.audio-Result-text a:active {
+    background-color: #157de5;
+}
+
+.audio-Result-text a span {
+    padding-left: 26px;
+    background: url(../images/index/icon-dwon-big.png) no-repeat left center;
+    line-height: 54px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+}
+
+.audio-player {
+    margin-top: 60px;
+}
+
+.audio-player audio {
+    display: none;
+}
+
+.audio-play-pause {
+    float: left;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    background: url("../images/index/icon-pause.png") no-repeat left center;
+}
+
+.audio-play-pause.icon-play {
+    background: url("../images/index/icon-play.png") no-repeat left center;
+}
+
+.audio-center {
+    margin-left: 45px;
+    margin-right: 160px;
+    padding: 3px 0;
+}
+
+.audio-center h6 {
+    font-size: 16px;
+    color: #323232;
+    line-height: 1;
+}
+
+.audio-progress {
+    background-color: #e4e4e4;
+    height: 4px;
+    margin-top: 15px;
+}
+
+.audio-progress div {
+    height: 4px;
+    background-color: #158afd;
+    position: relative;
+}
+
+.audio-progress div i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    margin-right: -10px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/index/icon-play-jd.png") no-repeat center center;
+}
+
+.audio-play-time {
+    float: right;
+    font-size: 16px;
+    color: #323232;
+    line-height: 1;
+    margin-top: 26px;
+}
+
+.order-btn {
+    width: 100px;
+    border: 1px solid #158afd;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    line-height: 34px;
+    font-size: 16px;
+    color: #158afd;
+    text-decoration: none;
+}
+
+.order-btn.no-click {
+    color: #c3c3c3;
+    border: 1px solid #c3c3c3;
+}
+
+.order-btn.no-pay {
+    color: #fff;
+    background-color: #158afd;
+}
+
+.step-payment-table.no-mt {
+    margin-top: 0;
+}

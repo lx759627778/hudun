@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<swiper class='banner' autoplay='true' interval="3000" indicator-dots="true" indicator-color="rgba(255,255,255,0.4)" indicator-active-color="#fff" circular="true" bindtap='buypackage' id='-1' >
+  <block wx:for="{{bannerUrl}}" wx:key="unique">
+    <swiper-item>
+    <image src='{{item}}'></image>
+  </swiper-item>
+
+  </block>
+</swiper>
+<swiper class='msgtips' vertical='true' autoplay='true' circular="true" interval="2000">
+  <block wx:for="{{tipsArr}}" wx:for-item="item" wx:for-index="index" wx:key="unique1">
+    <swiper-item class='itembox' id="{{index}}">
+        <image src='../../images/icon_tishi.png'></image>
+        <text class='mob'>{{item.mobile}}</text>
+        <text class='name'>{{item.name}}</text>
+        <text class='time'>{{item.time}}</text>
+      </swiper-item>
+  </block>
+</swiper>
+<view class="productlist">
+  <block wx:for="{{productArr}}" wx:key="unique2">
+    <view class='itembox' bindtap='buypackage' id='{{index}}'>
+      <image class='icon' src='{{item.imgUrl}}' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="imageLoad"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,62 @@
+<!--pages/name/name.wxml-->
+<!--index.wxml-->
+<view class="container">
+   <view class='banner-box'>
+    <image class="banner" bindtap='openaddwecht' src='../images/banner-2.png'  mode="widthFix"></image>
+  </view>
+   <view class="index-from">
+    <view class="from-li pd-30">
+      <!-- <text class="from-title"></text> -->
+      <view class="from-right no-ml">
+        <view class="sex-box">
+          <view class="sex {{fromdata.sexid==1?'active':''}}" data-id="1" bindtap='sexChoice'>
+            <image src='../images/index-xbbg.png'  mode="widthFix"></image>
+            <text>男</text>
+          </view>
+          <view class="sex {{fromdata.sexid==2?'active':''}}" data-id="2"  bindtap='sexChoice'>
+            <image src='../images/index-xbbg.png'  mode="widthFix"></image>
+            <text>女</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="from-li pd-30">
+      <text class="from-title">姓氏：</text>
+      <view class="from-right">
+        <view class="ipt-box">
+         <input id="js-Surname" focus="{{lastfocus}}" placeholder='必须是汉字，最多俩个字' type='text'  bindinput="bindlastname" value='{{fromdata.lastname}}'></input>
+        </view>
+      </view>
+    </view>
+     <view class="from-li pd-30">
+      <text class="from-title">名字：</text>
+      <view class="from-right">
+        <view class="ipt-box">
+         <input focus="{{firstfocus}}" placeholder='必须是汉字，最多俩个字' type='text'  bindinput="bindfirstname" value='{{firstname}}'></input>
+        </view>
+      </view>
+    </view>
+    <view class="from-li pd-30">
+      <text class="from-title">生日日期：</text>
+      <view class="from-right">
+        <view class="ipt-box">
+          <picker mode="date" value="{{fromdata.date}}" start="1900-01-01" end="2030-01-01" bindchange="bindDateChange">
+            <view class="picker">
+              {{fromdata.date}}
+            </view>
+          </picker>
+          <image src='../images/icon-bt.png' mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+    <view class="from-li">
+      <button class='submit-btn' bindtap='submitfrom'>
+        <image src='../images/index-qm.png'  mode="widthFix"></image>
+        解名
+      </button>
+    </view>
+   </view>
+</view>
+ <image class="index-bg" src="../images/bg-m.png" mode="widthFix"></image>
+ <addWeChat id="addWeChat"></addWeChat>
+

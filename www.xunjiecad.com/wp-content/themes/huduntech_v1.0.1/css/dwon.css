@@ -1,0 +1,606 @@
+/* 编辑器首页 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    height: 60px;
+    background: #fff;
+}
+
+.header-center {
+    position: relative;
+}
+
+.header-logo-box {
+    float: left;
+    line-height: 60px;
+}
+
+.header-logo {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.header-more {
+    position: absolute;
+    top: 0;
+    left: -71px;
+    z-index: 3;
+    ;
+}
+
+.header-center .menu {
+    float: right;
+}
+
+#menu-header_menu>li {
+    float: left;
+    line-height: 60px;
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+#menu-header_menu>li:hover .sub-menu {
+    display: block;
+}
+
+.header-center li a {
+    display: block;
+    height: 60px;
+    padding: 0 35px 0 55px;
+}
+
+.header-center li.icon-1 a {}
+
+.editor-banner .banner-homepage-top .banner-slogan h1 {
+    font-size: 50px;
+}
+
+.editor-banner .banner-homepage-top .banner-slogan p {
+    padding: 1.8em 0 4em 0;
+    margin: 0;
+}
+
+.banner-btn {
+    overflow: hidden;
+}
+
+.btn-download-link {
+    width: 300px;
+    height: 64px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-size: 0;
+    text-align: center;
+}
+
+.btn-download-link span {
+    display: inline-block;
+    line-height: 64px;
+    padding-left: 36px;
+    background: url("../images/procut_icons/icon-dwon-blue.png") no-repeat left center;
+    color: #0977da;
+    font-size: 24px;
+}
+
+.btn-buy-link {
+    width: 160px;
+    height: 64px;
+    float: left;
+    margin-left: 15px;
+    background-color: #35ae52;
+    border-radius: 6px;
+    font-size: 0;
+    text-align: center;
+}
+
+.btn-buy-link span {
+    display: inline-block;
+    line-height: 64px;
+    padding-left: 36px;
+    background: url("../images/procut_icons/icon_manny.png") no-repeat left center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.banner-homepage-wrapper.editor-banner,
+.editor-banner .banner-homepage-top {
+    height: 560px;
+}
+
+.editor-banner .banner-homepage-top-1 {
+    background-color: #0e71bf;
+}
+
+.editor-banner .banner-homepage-top-2 {
+    background-color: #2b4dc1;
+}
+
+.editor-banner .banner-homepage-top-1 .banner-pic,
+.editor-banner .banner-homepage-top-2 .banner-pic {
+    float: left;
+    width: 600px;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+}
+
+.editor-banner .banner-homepage-top .banner-slogan {
+    width: 600px;
+    float: left;
+}
+
+.editor-banner .banner-homepage-top .banner-pic img {
+    position: relative;
+}
+
+.editor-banner .banner-homepage-top.banner-homepage-top-1 .banner-pic img {
+    float: right;
+}
+
+.editor-banner .banner-homepage-top.banner-homepage-top-2 .banner-pic img {
+    float: left;
+}
+
+.editor-banner.banner-homepage-wrapper .pagination {
+    bottom: 35px;
+}
+
+.banner-slogan-right {
+    float: right;
+}
+
+.line-function {
+    background-color: #f6f6f6;
+}
+
+.line-function-center {
+    padding: 70px 0 50px 0;
+}
+
+.function-list {
+    overflow: hidden;
+}
+
+.function-list li {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+
+.no-mr {
+    margin-right: 0!important;
+}
+
+.function-list li img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.function-text {
+    margin-top: 70px;
+}
+
+.function-text h6 {
+    text-align: center;
+    font-size: 22px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.function-text p {
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.line-Skill-center {
+    padding: 60px 0 20px;
+}
+
+.line-Skill-center>h6 {
+    line-height: 1;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.line-Skill-center>h6 i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 44px;
+    height: 4px;
+    background-color: #0071ba;
+    margin: 0;
+    margin-left: -22px;
+}
+
+.line-Skill-center>p {
+    font-size: 20px;
+    color: #0e71bf;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.Skill-text-img {
+    padding: 70px 0 100px 0;
+    overflow: hidden;
+}
+
+.Skill-text {
+    float: left;
+    width: 43%;
+}
+
+.Skill-text p {
+    margin-top: 130px;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.Skill-img {
+    float: left;
+    width: 57%;
+    overflow: hidden;
+}
+
+.text-r .Skill-img img {
+    float: left;
+}
+
+.text-l .Skill-img img {
+    float: right;
+}
+
+
+/* 帮助页 */
+
+.help-search {
+    background-color: #0e71bf;
+    padding: 45px 0;
+}
+
+.help-search-center {
+    text-align: center;
+    font-size: 0;
+}
+
+.search-inline {
+    overflow: hidden;
+}
+
+.search-inline>p {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    margin: 0;
+}
+
+.search-inline>p i {
+    display: inline-block;
+    height: 20px;
+    border-right: 1px solid #fff;
+    margin: 0 10px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.search-box {
+    width: 440px;
+    float: left;
+    margin: 0 40px;
+    background: #fff;
+    position: relative;
+}
+
+.search-ipt {
+    border: none!important;
+    outline: none;
+    background: none;
+    padding: 10px 15px;
+    width: 100%;
+    line-height: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.search-smt {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 38px!important;
+    height: 38px;
+    background: url("../images/editor/sousuo.png") no-repeat center center;
+    background-color: #3baded;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.help-Label {
+    padding: 35px 0 15px 0;
+    background-color: #def0ff;
+}
+
+.help-label-list {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.help-label-list li {
+    width: 116px;
+    float: left;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+
+.help-label-list li a {
+    display: block;
+    border: 1px solid #999;
+    color: #666;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+
+.answer-li {
+    width: 100%;
+}
+
+.answer-li div {
+    width: 50%;
+    display: table-cell;
+    padding: 30px 20px;
+}
+
+.answer-li div p {
+    line-height: 26px;
+    min-height: 52px;
+    padding-left: 72px;
+    color: #333;
+    position: relative;
+}
+
+.answer-li div p.ask-p {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 25px;
+}
+
+.answer-li div p.answer-p {
+    font-size: 16px;
+    color: #666;
+}
+
+.answer-li div p span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.answer-li div p.ask-p span {
+    background-color: #0e71bf;
+}
+
+.answer-li div p.answer-p span {
+    background-color: #38ad53;
+}
+
+.bg-f7f7f7 {
+    background-color: #f7f7f7;
+}
+
+.Course-li {
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.Course-li .Course-img {
+    width: 37.6%;
+    float: left;
+    position: relative;
+}
+
+.Course-li .Course-img img {
+    width: 100%;
+}
+
+.Course-li .Course-img span {
+    position: absolute;
+    right: -36px;
+    top: 40px;
+    width: 72px;
+    height: 72px;
+    background: url("../images/editor/nub-bg.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 30px;
+    line-height: 72px;
+    text-align: center;
+    color: #fff;
+}
+
+.Course-text {
+    width: 62.4%;
+    float: left;
+    padding: 60px 60px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Course-text h6 {
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.Course-text p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 30px 0 0;
+}
+
+.Course-text p a {
+    color: #0e71bf;
+}
+
+.Course-text i {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 3px;
+    height: 44px;
+    background-color: #686868;
+}
+
+.Course-li:nth-child(2n) .Course-img {
+    float: right;
+}
+
+.Course-li:nth-child(2n) .Course-text {
+    float: left;
+}
+
+.Course-li:nth-child(2n) .Course-text i {
+    left: 0;
+    right: none;
+}
+
+.Course-li:nth-child(2n) .Course-img span {
+    left: 0;
+    right: none;
+    margin-left: -36px;
+    margin-right: 0;
+}
+
+.comment-li {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.comment-User-head {
+    float: left;
+    width: 160px;
+}
+
+.comment-User-head img {
+    float: left;
+}
+
+.comment-User-head p {
+    margin: 0 0 0 65px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.comment-ctt {
+    margin-left: 160px;
+}
+
+.comment-User {
+    border-bottom: 1px solid #dddddd;
+    padding: 5px 0 25px 0;
+}
+
+.comment-User div i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../images/editor/icon-xx.png") no-repeat;
+}
+
+.comment-User p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.comment-User span {
+    font-size: 16px;
+    line-height: 1;
+    color: #999;
+}
+
+.comment-Reply {
+    padding: 25px 0 30px 0;
+}
+
+.comment-Reply h6 {
+    font-size: 16px;
+    color: #0e71bf;
+    line-height: 1.5;
+    margin: 0 0 5px;
+}
+
+.comment-Reply p {
+    font-size: 16px;
+    color: #0e71bf;
+    line-height: 1.5;
+    margin: 0 0 5px;
+}
+
+.comment-Reply span {
+    font-size: 16px;
+    line-height: 1;
+    color: #999;
+}

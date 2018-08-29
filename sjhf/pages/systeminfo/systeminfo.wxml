@@ -1,0 +1,25 @@
+<view class='model'>
+  <image class="model-bg" src="../../images/bg-jx.jpg" mode="widthFix"></image>
+  <image src='../../images/icon_iphone.png' mode="widthFix"></image>
+  <text>{{model}}</text>
+</view>
+<view class='sysinfo'>
+  <view>
+    <text>手机品牌</text>
+    <text class='result'>{{brand}}</text>
+  </view>
+  <view>
+    <text>微信版本号</text>
+    <text class='result'>{{version}}</text>
+  </view>
+  <view>
+    <text>操作系统版本</text>
+    <text class='result'>{{system}}</text>
+  </view>
+  <view>
+    <text>设备像素比</text>
+    <text class='result'>{{pixelRatio}}</text>
+  </view>
+</view>
+
+<button wx:if="{{isIos == 1}}" class='btn' bindtap='toIndex'>前往恢复数据</button>

@@ -1,0 +1,58 @@
+<view class='user-name'>
+  <image src='../../images/bg-jx.jpg' class='bg'></image>
+  <view class='head-img'>
+    <!-- <image src='{{headUrl}}'></image> -->
+    <view class='imagebox'>
+      <open-data type="userAvatarUrl" class="image"></open-data>
+    </view>
+    <!-- <text>{{name}}</text> -->
+    <open-data type="userNickName" class="text"></open-data>
+  </view>
+</view>
+<view class='user-action'>
+  <view class='action-item'>
+    <view>
+      <image src='../../images/icon_dingdan.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>我的订单</text>
+    </view>
+    <text class='col-r' bindtap='viewOrder'>立即查看</text>
+  </view>
+  <view class='action-item'>
+    <view>
+      <image src='../../images/icon_QQ.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>在线QQ</text>
+    </view>
+    <text class='col-r'>4000076365</text>
+  </view>
+  <view class='action-item' id='4000076365' bindtap="callPhone">
+    <view>
+      <image src='../../images/icon_kefu.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>客服热线</text>
+    </view>
+    <text class='col-r'>400-007-6365</text>
+  </view>
+  
+  <view class='action-item'>
+    <view>
+      <image src='../../images/icon_email.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>企业邮箱</text>
+    </view>
+    <text class='col-r'>support@huduntech.com</text>
+  </view>
+  <view class='action-item'>
+    <view>
+      <image src='../../images/icon_web.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>官方网站</text>
+    </view>
+    <text class='col-r'>www.shoujihuifu.com</text>
+  </view>
+  <!-- <view class='action-item'>
+    <view>
+      <image src='../../images/icon_tousu.png' style="width: {{imgwidth}}rpx; height: {{imgheight}}rpx;"  bindload="setImageWidth"></image>
+      <text>我要投诉</text>
+    </view>
+    <text class='col-r'>立即前往</text>
+  </view> -->
+  
+</view>
+  

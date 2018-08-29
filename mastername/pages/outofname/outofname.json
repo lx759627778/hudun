@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "解名",
+  "usingComponents": {
+    "addWeChat": "/addWeChat/addWeChat"
+  }
+}

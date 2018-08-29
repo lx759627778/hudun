@@ -1,0 +1,359 @@
+/* 首页 */
+
+
+/*  */
+
+.index-line {
+    padding-top: 35px;
+}
+
+.index-line-center>h6 {
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.index-line-center>p {
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.index-line-ctt {
+    margin-top: 35px;
+}
+
+.index-dwon-list {
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.index-dwon-list li {
+    width: 33.33%;
+    float: left;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 35px 35px 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.index-dwon-list li>div {
+    padding-left: 82px;
+}
+
+.index-dwon-list li>div.bg-lg1 {
+    background: url("../images/index/logo_big_1.png") no-repeat left top;
+}
+
+.index-dwon-list li>div.bg-lg2 {
+    background: url("../images/index/logo_big_2.png") no-repeat left top;
+    margin-right: -5px;
+}
+
+.index-dwon-list li>div.bg-lg3 {
+    background: url("../images/index/logo_big_3.png") no-repeat left top;
+}
+
+.index-dwon-list li>div.bg-lg4 {
+    background: url("../images/index/logo_big_4.png") no-repeat left top;
+}
+
+.index-dwon-list li>div.bg-lg5 {
+    background: url("../images/index/logo_big_5.png") no-repeat left top;
+}
+
+.index-dwon-list li>div h6 {
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.index-dwon-list li>div p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.index-dwon-list li>div p span {
+    white-space: nowrap;
+}
+
+.index-dwon-list li>div a {
+    width: 100px;
+    border: 1px solid #9ac6ef;
+    background-color: #dceeff;
+    border-radius: 30px;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.index-dwon-list li>div a:hover {
+    background-color: #3076d4;
+    border: 1px solid #3076d4;
+    color: #fff;
+}
+
+.index-dwon-list li>div a:active {
+    background-color: #246ed3;
+    border: 1px solid #246ed3;
+}
+
+.more-dwon {
+    font-size: 18px;
+    line-height: 114px;
+    text-align: center;
+}
+
+.Range-list {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.Range-list li {
+    width: 15%;
+    margin-right: 6.25%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.Range-list li.no-mr {
+    margin-right: 0;
+}
+
+.Range-list li>div {
+    padding-top: 82px;
+}
+
+.Range-list li>div.icon-fw1 {
+    background: url("../images/index/icon_fw_1.png") no-repeat top center;
+}
+
+.Range-list li>div.icon-fw2 {
+    background: url("../images/index/icon_fw_2.png") no-repeat top center;
+}
+
+.Range-list li>div.icon-fw3 {
+    background: url("../images/index/icon_fw_3.png") no-repeat top center;
+}
+
+.Range-list li>div.icon-fw4 {
+    background: url("../images/index/icon_fw_4.png") no-repeat top center;
+}
+
+.Range-list li>div.icon-fw5 {
+    background: url("../images/index/icon_fw_5.png") no-repeat top center;
+}
+
+.Range-list li>div h6 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: center;
+}
+
+.Range-list li>div p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666666;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.index-line.data-bg {
+    background: url("../images/index/pinzhi-bg.jpg") no-repeat top center;
+}
+
+.index-line.data-bg .index-line-center>h6 {
+    color: #fff;
+}
+
+.index-line.data-bg .index-line-center>p {
+    color: #d6d6d6;
+}
+
+.data-list {
+    overflow: hidden;
+    padding: 30px 50px 70px;
+}
+
+.data-list li {
+    width: 33.33%;
+    float: left;
+}
+
+.data-list li h6 {
+    text-align: center;
+    font-weight: bold;
+    color: #1890ff;
+    line-height: 1.5;
+    font-size: 38px;
+}
+
+.data-list li p {
+    text-align: center;
+    font-weight: bold;
+    color: #d6d6d6;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.slt-my {
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.slt-my li {
+    width: 22%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #eee;
+    background-color: #f8f8f8;
+    margin-right: 4%;
+    padding: 25px 20px 15px;
+}
+
+.slt-my li.no-mr {
+    margin-right: 0;
+}
+
+.slt-my li p {
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1;
+    padding-top: 80px;
+}
+
+.slt-my li p.icon-xz1 {
+    background: url("../images/index/icon_xz_1.png") no-repeat top center;
+}
+
+.slt-my li p.icon-xz2 {
+    background: url("../images/index/icon_xz_2.png") no-repeat top center;
+}
+
+.slt-my li p.icon-xz3 {
+    background: url("../images/index/icon_xz_3.png") no-repeat top center;
+}
+
+.slt-my li p.icon-xz4 {
+    background: url("../images/index/icon_xz_4.png") no-repeat top center;
+}
+
+.slt-my li p.icon-xz5 {
+    background: url("../images/index/icon_xz_5.png") no-repeat top center;
+}
+
+@media (max-width: 1240px) {
+    .index-dwon-list li>div p {
+        min-height: 63px;
+    }
+    .more-dwon {
+        line-height: 132px;
+    }
+    .index-dwon-list li>div h6 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .index-dwon-list li>div h6 {
+        font-size: 16px;
+    }
+    .index-dwon-list li {
+        padding: 25px 25px 15px;
+        width: 50%;
+    }
+    .banner-text h6 {
+        font-size: 30px;
+    }
+    .banner-text>p {
+        font-size: 14px;
+    }
+    .banner-list {
+        width: 100%;
+    }
+    .banner-list li {
+        font-size: 14px;
+    }
+    .Range-list li {
+        width: 18%;
+        margin-right: 2.5%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .banner-text {
+        width: 100%;
+    }
+    .banner-img {
+        display: none;
+    }
+    .index-dwon-list li {
+        padding: 25px 25px 15px;
+        width: 100%;
+    }
+    .banner-list li {
+        width: 100%;
+    }
+    .Range-list li {
+        width: 33%;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    .data-list {
+        padding: 30px 0 70px;
+    }
+    .slt-my li {
+        width: 46%;
+        margin: 0 2% 20px;
+    }
+    .slt-my {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    .Range-list li {
+        width: 50%;
+        padding: 0 10px;
+    }
+    .Range-list li p {
+        min-height: 63px;
+    }
+    .data-list li {
+        width: 100%;
+    }
+    .index-line.data-bg {
+        background: url(../images/index/pinzhi-bg.jpg) no-repeat top center;
+        background-size: cover;
+    }
+    .data-list {
+        padding: 0px 0 30px;
+    }
+    .index-line-ctt {
+        margin-top: 10px;
+    }
+}
+
+.index-dwon-list li:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 4px 8px #e1e1e1;
+}

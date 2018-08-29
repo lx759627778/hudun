@@ -1,0 +1,660 @@
+/*
+Theme Name: 迅捷办公
+Theme URI: www.xunjiepdf.com/
+Description: www.xunjiepdf.com/
+Version: 1.0.13
+Author: www.xunjiepdf.com/
+Author URI: www.xunjiepdf.com/
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    height: 60px;
+    background: #fff;
+    position: relative;
+}
+
+.header-logo-box {
+    float: left;
+    line-height: 60px;
+}
+
+.header-logo {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.header-center .menu {
+    float: right;
+}
+
+#menu-header_menu>li {
+    float: left;
+    line-height: 60px;
+}
+
+.menu>li {
+    margin: 0 10px;
+}
+
+.menu>li>a {
+    display: block;
+    height: 60px;
+    padding: 0 6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.menu>li.current-menu-item>a {
+    border-bottom: 3px solid #00b800;
+}
+
+.menu>li.current-menu-parent>a {
+    border-bottom: 3px solid #00b800;
+}
+
+#menu-header_menu>li:hover>a {
+    border-bottom: 3px solid #00b800;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 1200px;
+    margin-left: -600px;
+    background: #fff;
+    padding: 20px 0 0;
+    font-size: 0;
+    text-align: left;
+    display: none;
+    z-index: 5;
+}
+
+@media (min-width: 1240px) {
+    .sub-menu::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1920px;
+        height: 100%;
+        margin-left: -360px;
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        z-index: 0;
+    }
+}
+
+#menu-header_menu>li:hover .sub-menu {
+    display: block;
+}
+
+.nav-icon .menubar-ie em+em {
+    margin-top: 6px;
+}
+
+.sub-menu>li {
+    display: inline-block;
+    font-size: 0;
+    line-height: 1;
+    padding: 10px 0;
+    margin: 0 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.sub-menu>li>a {
+    display: block;
+    padding-top: 60px;
+    line-height: 1;
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+    transition: all .5s;
+}
+
+.sub-menu>li>a:hover {
+    color: #3076d4;
+}
+
+.sub-menu>li.current-menu-item>a {
+    color: #3076d4;
+}
+
+.sub-menu>li a {
+    background: url("images/index/logo_big_1.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.sub-menu>li+li a {
+    background: url("images/index/logo_big_2.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.sub-menu>li+li+li a {
+    background: url("images/index/logo_big_3.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.sub-menu>li+li+li+li a {
+    background: url("images/index/logo_big_4.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.sub-menu>li+li+li+li+li a {
+    background: url("images/index/logo_big_5.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.menu>li+li+li+li .sub-menu>li a {
+    background: url("images/index/logo_big_6.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.menu>li+li+li+li .sub-menu>li+li a {
+    background: url("images/index/logo_big_6.png") no-repeat top center;
+    background-size: 44px;
+}
+
+.nav-icon {
+    display: block;
+    width: 44px;
+    height: 44px;
+    float: right;
+    margin-top: 8px;
+    display: none;
+}
+
+.nav-icon .menubar-ie em {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #158afd;
+    margin: 6px auto;
+}
+
+.nav-icon .menubar-ie em {
+    margin-top: 12px;
+}
+
+
+/* 产品介绍*/
+
+.line-Product {
+    background-color: #f6fafc;
+}
+
+.line-Product-center {
+    padding: 40px 0 45px 0;
+}
+
+.line-Product-center>h6 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.line-Product-center>p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.converter-Product-list {
+    list-style-type: none;
+}
+
+.converter-Product-list li {
+    width: 22%;
+    padding: 50px 25px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: left;
+    margin-right: 4%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.converter-Product-list li.no-mr {
+    margin-right: 0;
+}
+
+.converter-Product-list li:hover {
+    border: 2px solid #54a1ff;
+    box-shadow: 0 0 30px #ddd;
+}
+
+.converter-Product-list li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.converter-Product-text {
+    margin-top: 55px;
+}
+
+.converter-Product-text h6 {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+
+.converter-Product-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #666666;
+    margin-top: 5px;
+}
+
+.converter-Product-list {
+    margin-top: 60px;
+}
+
+
+/* footer */
+
+.site-footer {
+    background-color: #333333;
+}
+
+.footer-top {
+    padding: 25px 0 55px;
+    overflow: hidden;
+}
+
+.footer-top>div {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    min-height: 173px;
+}
+
+.inline-center {
+    display: inline-block;
+    text-align: left;
+}
+
+.inline-right {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-top>div h6 {
+    font-size: 16px;
+    color: #f7f7f7;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.about-us {
+    width: 38%;
+    float: left;
+    border-right: 4px solid #4e4e4e;
+    padding-right: 62px;
+}
+
+.Relevant-link {
+    float: left;
+    width: 22%;
+    border-right: 4px solid #4e4e4e;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.footer-contact {
+    float: left;
+    width: 22%;
+    border-right: 4px solid #4e4e4e;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.Authentication-box {
+    float: left;
+    width: 18%;
+    text-align: right;
+}
+
+.about-us img {
+    display: block;
+}
+
+.about-us P {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 12px;
+    line-height: 1.5
+}
+
+.Relevant-link-list {
+    overflow: hidden;
+    min-height: 105px;
+}
+
+.Relevant-link-list ul {
+    list-style-type: square;
+    padding-left: 14px;
+}
+
+.Relevant-link-list ul li {
+    font-size: 8px;
+    color: #999999;
+    line-height: 1.5;
+    list-style-type: square;
+}
+
+.Relevant-link-list ul li a {
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer-contact p {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #999999;
+}
+
+.footer-contact p.icon-tel {
+    background: url("images/index/icon_lx_tel.png") no-repeat left center;
+}
+
+.footer-contact p.icon-phone {
+    background: url("images/index/icon_lx_phone.png") no-repeat left center;
+}
+
+.footer-contact p.icon-qq {
+    background: url("images/index/icon_lx_qq.png") no-repeat left center;
+    margin-bottom: 0;
+}
+
+.Authentication-box img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    padding: 25px 0;
+    border-top: 1px dotted #666666;
+}
+
+.page-link {
+    text-align: center;
+}
+
+.page-link a {
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 14px;
+    color: #999999;
+    line-height: 18px;
+}
+
+.page-link a:hover {
+    color: #e5e5e5;
+}
+
+.page-link em {
+    display: inline-block;
+    font-size: 10px;
+    color: #999999;
+    line-height: 18px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    /* margin-top: 15px; */
+    text-align: center;
+}
+
+@media (max-width: 1240px) {
+    .w1200 {
+        width: 100%;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .sub-menu {
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        background: #fff;
+        padding: 20px 0 0;
+        font-size: 0;
+        text-align: left;
+        display: none;
+        z-index: 5;
+    }
+    .sub-menu>li {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .sub-menu>li {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-us {
+        width: 100%;
+        border-right: none;
+        padding-right: 0;
+    }
+    .Relevant-link,
+    .footer-contact {
+        width: 50%;
+        text-align: left;
+        border-right: none;
+        margin-top: 20px;
+    }
+    .Authentication-box {
+        width: 100%;
+        text-align: left;
+    }
+    .footer-top>div {
+        min-height: 1px;
+    }
+    .nav-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .main-navigation {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        background: #fff;
+        display: none;
+    }
+    .header-center .menu {
+        width: 100%;
+    }
+    #menu-header_menu>li {
+        width: 100%;
+        float: none;
+    }
+    .sub-menu {
+        position: relative;
+        top: 0px;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .sub-menu>li {
+        margin: 0px;
+        float: left;
+        width: 33.33%;
+    }
+    .sub-menu>li>a {
+        font-size: 12px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .menu>li>a {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+/* 侧边栏 */
+
+.sidebar-fix {
+    position: fixed;
+    right: 0;
+    top: 100%;
+    margin-top: -380px;
+    background: #222222;
+    z-index: 10;
+}
+
+.sidebar-fix a {
+    width: 70px;
+    height: 70px;
+    border-bottom: 1px solid #191919;
+    border-top: 1px solid #303030;
+    display: block;
+    position: relative;
+}
+
+.sidebar-fix a.sidebar-qq {
+    border-top: 1px solid #222222;
+    background: url("images/icons/icon_qq.png") no-repeat center center;
+}
+
+.sidebar-fix a.sidebar-qq:hover {
+    background: url("images/icons/icon_qq_hover.png") no-repeat center center;
+    background-color: #1769e1;
+    border-top: 1px solid #1769e1;
+    border-bottom: 1px solid #125bc4;
+}
+
+.sidebar-fix a.sidebar-tel {
+    background: url("images/icons/icon_tel.png") no-repeat center center;
+}
+
+.sidebar-fix a.sidebar-tel:hover {
+    background: url("images/icons/icon_tel_hover.png") no-repeat center center;
+    background-color: #1769e1;
+    border-top: 1px solid #3a7ad8;
+    border-bottom: 1px solid #125bc4;
+}
+
+.sidebar-fix a.sidebar-email {
+    background: url("images/icons/icon_email.png") no-repeat center center;
+}
+
+.sidebar-fix a.sidebar-email:hover {
+    background: url("images/icons/icon_email_hover.png") no-repeat center center;
+    background-color: #1769e1;
+    border-top: 1px solid #3a7ad8;
+    border-bottom: 1px solid #125bc4;
+}
+
+.sidebar-fix a.sidebar-top {
+    display: none;
+    border-bottom: 1px solid #222222;
+    background: url("images/icons/icon_top.png") no-repeat center center;
+}
+
+.sidebar-fix a.sidebar-top:hover {
+    background: url("images/icons/icon_top_hover.png") no-repeat center center;
+    background-color: #1769e1;
+    border-top: 1px solid #3a7ad8;
+    border-bottom: 1px solid #1769e1;
+}
+
+.sidebar-details {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    border: 1px solid #d4d4d4;
+    background: #ffffff;
+    box-shadow: 0 0 15px #ccc;
+    padding: 11px 18px;
+    display: none;
+}
+
+.sidebar-details h6 {
+    line-height: 1.4;
+    font-size: 16px;
+    color: #666666;
+    white-space: nowrap;
+}
+
+.sidebar-details i {
+    width: 16px;
+    height: 14px;
+    background: url("images/icons/sz.png") no-repeat left center;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    margin-top: -7px;
+}
+
+.sidebar-fix a:hover .sidebar-details {
+    display: block;
+}
+
+.back-home {
+    width: 265px;
+    border: 1px solid #0ab4ff;
+    line-height: 56px;
+    font-size: 26px;
+    color: #fff;
+    background-color: #0ab4ff;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 3px;
+    margin: 15px auto 60px;
+    display: block;
+}

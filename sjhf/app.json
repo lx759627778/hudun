@@ -1,0 +1,54 @@
+{
+  "pages":[
+    
+    "pages/scanning/scanning",
+    "pages/mobileinfo/mobileinfo",
+    "pages/user/user",
+    "pages/help/help",
+    "pages/index/index",
+    "pages/wirteInfo/wirteInfo",
+    "pages/order/order",
+    "pages/mackorder/mackorder",
+    "pages/packageChoose/packageChoose",
+    "pages/systeminfo/systeminfo",
+    "pages/single/single"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1a87e8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/ico-jiance-01.png",
+        "iconPath": "images/ico-jiance-02.png",
+        "pagePath": "pages/scanning/scanning",
+        "text": "检测"
+      },
+      {
+        "selectedIconPath": "images/ico-huifu-01.png",
+        "iconPath": "images/ico-huifu-02.png",
+        "pagePath": "pages/index/index",
+        "text": "恢复"
+      },
+      {
+        "selectedIconPath": "images/ico-bangzhu-01.png",
+        "iconPath": "images/ico-bangzhu-02.png",
+        "pagePath": "pages/help/help",
+        "text": "帮助"
+      },
+      {
+        "selectedIconPath": "images/ico-kefu-01.png",
+        "iconPath": "images/ico-kefu-02.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4a92f5",
+    "navigationBarTitleText": "恢复",
+    "backgroundColor": "#fff",
+    "navigationBarTextStyle":"whtie"
+  }
+}

@@ -1,0 +1,114 @@
+page{
+  background: #F5F7F8;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  height: 156rpx;
+  background: #fff;
+  padding-left: 50rpx;
+}
+.title view{
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  background: #E7F4FE;
+  position: relative;
+  margin: 0 24rpx 0 0rpx;
+}
+.title view image{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35rpx; 
+  margin-left: -35rpx; 
+}
+.title text{
+  color: #2B2B2B;
+  font-size: 38rpx;
+}
+.package-title{
+  color: #B2B2B2;
+  font-size: 28rpx;
+  padding-left: 34rpx; 
+  margin-bottom: 14rpx;
+  padding-top:25rpx;
+}
+.package-plan{
+  padding:30rpx 150rpx 27rpx  72rpx;
+  background: #fff;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 18rpx;
+}
+.package-plan .plan-detail{
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  margin-bottom: 24rpx;
+}
+.package-plan .logo-icon{
+  width: 64rpx;
+  height: 64rpx;
+}
+.package-plan .plan-detail .equal{
+  margin: 0 24rpx;
+}
+.package-plan .plan-detail .price{
+  color: #46A3F4;
+  
+}
+.package-plan .plan-dec{
+  font-size: 24rpx;
+  line-height: 32rpx;
+}
+.package-plan .plan-dec text{
+  color: #46A3F4;
+}
+.checkbox{
+  position: absolute;
+  top: 50%;
+  right: 54rpx;
+  margin-top: -20rpx;
+}
+.checkbox image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.hot-rec{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.buy{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background: #fff;
+  align-items: center;
+}
+.buy .btn{
+  width: 218rpx;
+  background: #2694F4;
+  text-align: center;
+  line-height: 98rpx;
+  color: #fff;
+  font-size: 38rpx;
+}
+.buy .price{
+  padding-left: 32rpx;
+  font-size: 24rpx;
+  color: #2B2B2B;
+}
+.buy .price text{
+  color: #EE5447;
+  font-size: 32rpx;
+}

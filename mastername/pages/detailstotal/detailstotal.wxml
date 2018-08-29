@@ -1,0 +1,194 @@
+<!--pages/detailstotal/detailstatal.wxml-->
+<view class="container">
+  <view class='banner-box'>
+    <image class="banner" bindtap='openaddwecht' src='../images/banner-3.png'  mode="widthFix"></image>
+  </view>
+  <view class="nav-header">
+    <view class="header-tab {{tabindex==1?'active':''}}" bindtap='switchtab' data-index="1">姓名总评<image src='../images/nav-bg.png' mode="widthFix"></image></view>
+    <view class="header-tab {{tabindex==2?'active':''}}"  bindtap='switchtab' data-index="2">五行分析<image src='../images/nav-bg.png' mode="widthFix"></image></view>
+    <view class="header-tab {{tabindex==3?'active':''}}"  bindtap='switchtab' data-index="3">属相分析<image src='../images/nav-bg.png' mode="widthFix"></image></view>
+    <view class="header-tab {{tabindex==4?'active':''}}"  bindtap='switchtab' data-index="4">五格数理<image src='../images/nav-bg.png' mode="widthFix"></image></view>
+  </view>
+  <view class='detail-grade'>
+    <text>{{lastname}}{{firstname}}</text>
+    <view><text>{{score}}</text>分</view>
+  </view>
+  <view class="js-tab" hidden='{{tabindex!=1}}'>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>名字单字释义</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+        <view wx:for="{{names_info}}" wx:for-item="namesinfo">
+          <text class='line-text'>汉字：{{namesinfo["汉字"]}}</text>
+          <text class='line-text'>简体：{{namesinfo["简体"]}}</text>
+          <text class='line-text'>繁体：{{namesinfo["繁体"]}}</text>
+          <text class='line-text'>简体笔画数：{{namesinfo["简体笔画数"]}}</text>
+          <text class='line-text'>康熙笔画数：{{namesinfo["康熙笔画数"]}}</text>
+          <text class='line-text'>拼音1：{{namesinfo["拼音1"]}}</text>
+          <text class='line-text'>拼音2：{{namesinfo["拼音2"]}}</text>
+          <text class='line-text'>声母：{{namesinfo["声母"]}}</text>
+          <text class='line-text'>韵母：{{namesinfo["韵母"]}}</text>
+          <text class='line-text'>部首：{{namesinfo["部首"]}}</text>
+          <text class='line-text'>五行属性：{{namesinfo["五行属性"]}}</text>
+          <text class='line-text'>五笔：{{namesinfo["五笔"]}}</text>
+          <text class='line-text'>基本解释：{{namesinfo["基本解释"]}}</text>
+          <text class='line-text'>详细解释：{{namesinfo["详细解释"]}}</text>
+        </view>
+          
+      </view>
+    </view>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>姓氏起源</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+        <text class='line-text'>{{lastname_info["姓氏起源"]}}</text>
+      </view>
+    </view>
+  
+  </view>
+ 
+
+
+  <view class="js-tab"  hidden='{{tabindex!=2}}'>
+  
+     <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>三才分析</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <text class='line-text'>三才：{{sancai_info["三才"]}}</text>
+          <text class='line-text'>吉凶：{{sancai_info["吉凶"]}}</text>
+          <text class='line-text'>解释一：{{sancai_info["解释一"]}}</text>
+          <text class='line-text'>解释二：{{sancai_info["解释二"]}}</text>
+          <text class='line-text'>性格：{{sancai_info["性格"]}}</text>
+          <text class='line-text'>意志：{{sancai_info["意志"]}}</text>
+          <text class='line-text'>事业：{{sancai_info["事业"]}}</text>
+          <text class='line-text'>家庭：{{sancai_info["家庭"]}}</text>
+          <text class='line-text'>婚姻：{{sancai_info["婚姻"]}}</text>
+          <text class='line-text'>子女：{{sancai_info["子女"]}}</text>
+          <text class='line-text'>社交：{{sancai_info["社交"]}}</text>
+          <text class='line-text'>精神：{{sancai_info["精神"]}}</text>
+          <text class='line-text'>财运：{{sancai_info["财运"]}}</text>
+          <text class='line-text'>健康：{{sancai_info["健康"]}}</text>
+          <text class='line-text'>老运：{{sancai_info["老运"]}}</text>
+          <text class='line-text'>对基础运的影响：{{sancai_info["对基础运的影响"]}}</text>
+          <text class='line-text'>对成功运的影响：{{sancai_info["对成功运的影响"]}}</text>
+          <text class='line-text'>对人际关系的影响：{{sancai_info["对人际关系的影响"]}}</text>
+          <text class='line-text'>对性格的影响：{{sancai_info["对性格的影响"]}}</text>
+      </view>
+    </view>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>五行用神</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <text class='line-text'>吉凶：{{wuxingxiang["吉凶"]}}</text>
+          <text class='line-text'>解释一：{{wuxingxiang["解释一"]}}</text>
+          <text class='line-text'>解释二：{{wuxingxiang["解释二"]}}</text>
+          <text class='line-text'>解释三：{{wuxingxiang["解释三"]}}</text>
+          <text class='line-text'>基业：{{wuxingxiang["基业"]}}</text>
+          <text class='line-text'>家庭：{{wuxingxiang["家庭"]}}</text>
+          <text class='line-text'>含义：{{wuxingxiang["含义"]}}</text>
+          <text class='line-text'>健康：{{wuxingxiang["健康"]}}</text>
+          <text class='line-text'>数理暗示：{{wuxingxiang["数理暗示"]}}</text>
+      </view>
+    </view>
+  
+  </view>
+
+
+
+
+  <view class="js-tab"  hidden='{{tabindex!=3}}'>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>属相为“{{shengXiao}}”的人</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+        <text  class='line-text'>生肖个性：</text>
+          <text  class='line-text'>{{shengXiaodata.shengxiaogexing}}</text>
+      </view>
+    </view>
+  
+  </view>
+
+  
+
+  <view class="js-tab"  hidden='{{tabindex!=4}}'>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>五格分数</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <view  class='line-text'>天格<view class="line-fr"><text>{{tiange}}</text>分</view></view>
+          <view  class='line-text'>地格<view  class="line-fr"><text>{{dige}}</text>分</view></view>
+          <view  class='line-text'>人格<view  class="line-fr"><text>{{renge}}</text>分</view></view>
+          <view  class='line-text'>外格<view  class="line-fr"><text>{{waige}}</text>分</view></view>
+          <view  class='line-text'>总格<view  class="line-fr"><text>{{zongge}}</text>分</view></view>
+      </view>
+    </view>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>天格</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <text class='line-text'>吉凶：{{tiange_info["吉凶"]}}</text>
+          <text class='line-text'>解释一：{{tiange_info["解释一"]}}</text>
+          <text class='line-text'>解释二：{{tiange_info["解释二"]}}</text>
+          <text class='line-text'>解释三：{{tiange_info["解释三"]}}</text>
+          <text class='line-text'>基业：{{tiange_info["基业"]}}</text>
+          <text class='line-text'>家庭：{{tiange_info["家庭"]}}</text>
+          <text class='line-text'>含义：{{tiange_info["含义"]}}</text>
+          <text class='line-text'>健康：{{tiange_info["健康"]}}</text>
+          <text class='line-text'>数理暗示：{{tiange_info["数理暗示"]}}</text>
+      </view>
+    </view>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>地格</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <text class='line-text'>吉凶：{{dige_info["吉凶"]}}</text>
+          <text class='line-text'>解释一：{{dige_info["解释一"]}}</text>
+          <text class='line-text'>解释二：{{dige_info["解释二"]}}</text>
+          <text class='line-text'>解释三：{{dige_info["解释三"]}}</text>
+          <text class='line-text'>基业：{{dige_info["基业"]}}</text>
+          <text class='line-text'>家庭：{{dige_info["家庭"]}}</text>
+          <text class='line-text'>含义：{{dige_info["含义"]}}</text>
+          <text class='line-text'>健康：{{dige_info["健康"]}}</text>
+          <text class='line-text'>数理暗示：{{dige_info["数理暗示"]}}</text>
+      </view>
+    </view>
+    <view class='detail-line'>
+      <view class='detail-line-h6'>
+        <text>人格</text>
+        <image src='../images/border.png' mode='widthFix'></image>
+      </view>
+      <view class='detail-line-ctt'>
+          <text class='line-text'>吉凶：{{renge_info["吉凶"]}}</text>
+          <text class='line-text'>解释一：{{renge_info["解释一"]}}</text>
+          <text class='line-text'>解释二：{{renge_info["解释二"]}}</text>
+          <text class='line-text'>解释三：{{renge_info["解释三"]}}</text>
+          <text class='line-text'>基业：{{renge_info["基业"]}}</text>
+          <text class='line-text'>家庭：{{renge_info["家庭"]}}</text>
+          <text class='line-text'>含义：{{renge_info["含义"]}}</text>
+          <text class='line-text'>健康：{{renge_info["健康"]}}</text>
+          <text class='line-text'>数理暗示：{{renge_info["数理暗示"]}}</text>
+      </view>
+    </view>
+    
+  </view>
+
+  
+</view>
+<addWeChat id="addWeChat"></addWeChat>

@@ -1,0 +1,150 @@
+/* pages/help/help.wxss */
+.arrow{
+  display: block;
+  width: 20rpx;
+  height: 20rpx;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  transform: rotateZ(-45deg) translateY(-50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.phonecall{
+  padding: 16rpx 20rpx;
+  font-size: 32rpx;
+  border-bottom: 30rpx solid #f2f6f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phonecall .content{
+  position: relative;
+  padding-left: 120rpx;
+}
+.phonecall .icon{
+  position: absolute;
+  left: 10rpx;
+  top: -2rpx;
+}
+.phonecall .icon image{
+  width: 92rpx;
+  height: 115rpx;
+}
+.phonecall text{
+  display: block;
+  width: 100%;
+  line-height: 44rpx;
+  margin-bottom: 5rpx;
+  font-weight: 700;
+}
+.phonecall text:nth-child(3){
+  font-weight: 400;
+  color: #999;
+  font-size: 22rpx;
+}
+.phonecall button{
+  margin: 0;
+  width: 200rpx;
+  height: 50rpx;
+  background: #1d8ae7;
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+.main{
+  padding:0 20rpx;
+}
+.title{
+  height: 125rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  border-bottom:1rpx solid #efefef;
+  margin-top: 20rpx;
+}
+.title .line{
+  width: 8rpx;
+  height: 50rpx;
+  background: #1a87e8;
+  border-radius: 4rpx;
+  margin-right: 15rpx;
+}
+.title text{
+  display: block;
+}
+.process{
+  display: flex;
+  justify-content: center;
+  padding: 60rpx 0 30rpx;
+  flex-wrap: wrap;
+}
+.process image{
+  width: 680rpx;
+  height: 110rpx;
+  margin-bottom: 15rpx;
+}
+.process .text{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.process text{
+  font-size: 28rpx;
+}
+.post-container .title{
+  margin-bottom: 30rpx;
+}
+.post{
+  padding-bottom: 30rpx;
+  margin-bottom: 30rpx;
+  border-bottom:1rpx solid #efefef;
+}
+.post .post-title{
+  position: relative;
+  font-size: 32rpx;
+  padding-right: 50rpx;
+  padding-left: 50rpx;
+  /* margin-bottom: 25rpx; */
+}
+.post .post-title image{
+  width: 26rpx;
+  height: 30rpx;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.post .excerpt{
+  display: block;
+  font-size: 24rpx;
+  color: #666;
+  height: 0;
+  line-height: 44rpx;
+  overflow: hidden;
+  padding: 0 35rpx;
+}
+.show .excerpt{
+  height: auto;
+}
+.case{
+  padding:40rpx 186rpx 24rpx 0;
+  position: relative;
+  border-bottom: 1rpx solid #efefef;
+  min-height: 186rpx;
+  box-sizing: border-box;
+}
+.case .post-title{
+  font-size: 28rpx;
+}
+.case .date{
+  font-size: 26rpx;
+  color: #666;
+}
+.case .thumbnail{
+  width: 170rpx;
+  height: 123rpx;
+  position: absolute;
+  right: 16rpx;
+  top: 40rpx;
+}

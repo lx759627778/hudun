@@ -1,0 +1,43 @@
+page{
+  background: #4a92f5;
+}
+.scan-gif{
+  text-align: center;
+  padding-top: 690rpx;
+  height: 810rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.scan-gif image{
+  width: 500rpx;
+  height: 500rpx;
+  margin-bottom: 90rpx;
+  position: absolute; 
+  top: 100rpx;
+  left: 50%;
+  transform: translateX(-50%)
+}
+.scan-gif image:nth-child(1){
+  z-index: 9;
+}
+.scan-gif image:nth-child(2){
+  z-index: 8;
+}
+.scan-gif text{
+  display: block;
+  color: #fff;
+  font-size: 30rpx;
+}
+.scan-txt{
+  display: block;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  padding-top: 180rpx;
+  
+}
+
+@keyframes  scan{
+    0% { transform:rotate(0deg) }
+    100% { transform:rotate(360deg) }
+}

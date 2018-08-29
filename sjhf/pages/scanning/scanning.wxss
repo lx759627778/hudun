@@ -1,0 +1,44 @@
+page{
+  background: #4a92f5;
+}
+.xinghao-bg{
+  text-align: center;
+  padding-top: 120rpx;
+  position: relative;
+  margin-bottom: 120rpx;
+}
+.xinghao-bg image{
+  width: 500rpx;
+  height: 500rpx;
+}
+.xinghao-bg .model{
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 75%;
+  color: #fff;
+  font-size: 48rpx;
+  transform: translateY(-50%);
+}
+.xinghao-bg .model text{
+  display: inline-block;
+  font-size: 38rpx;
+}
+.xinghao-bg .model text:first-child{
+  margin-right: 10rpx;
+}
+.scan{
+  width: 380rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 40rpx;
+  color: #3375d0;
+  background-color: #fff;
+}
+.page-bg{
+  width: 749rpx;
+  height: 234rpx;
+  position: absolute;
+  bottom: -80rpx;
+}

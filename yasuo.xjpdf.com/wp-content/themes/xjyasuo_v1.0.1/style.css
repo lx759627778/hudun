@@ -1,0 +1,350 @@
+    /*
+Theme Name: 迅捷压缩
+Theme URI:      yasuo.xjpdf.com
+Author:         yasuo.xjpdf.com
+Author URI:     yasuo.xjpdf.com
+Description:    yasuo.xjpdf.com
+Version: 1.0.1
+*/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    font,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td {
+        border: 0;
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+    
+    html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 62.5%;
+        overflow-y: scroll;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+    
+    body {
+        background: #fff;
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    main,
+    nav,
+    section {
+        display: block;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    
+    caption,
+    th,
+    td {
+        font-weight: normal;
+        text-align: left;
+    }
+    
+    fieldset {
+        min-width: inherit;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: "";
+    }
+    
+    blockquote,
+    q {
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+        quotes: none;
+    }
+    
+    a:hover,
+    a:active {
+        outline: 0;
+    }
+    
+    a img {
+        border: 0;
+    }
+    
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif, Verdana, "宋体";
+        font-size: 14px;
+    }
+    
+    .clearfix:before,
+    .clearfix:after {
+        content: "";
+        display: table;
+    }
+    
+    .clearfix:after {
+        clear: both;
+        overflow: hidden;
+    }
+    
+    .clearfix {
+        zoom: 1;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    /* 头部 */
+    
+    .site-header {
+        background-color: #3188ff;
+        height: 54px;
+    }
+    
+    .header-lg {
+        float: left;
+        line-height: 54px;
+        height: 54px;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    .header-lg a {
+        color: #fff;
+    }
+    
+    .header-lg img {
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: -2px;
+    }
+    
+    .menu-header-menu-container {
+        float: right;
+    }
+    
+    .menu {
+        overflow: hidden;
+    }
+    
+    .menu li {
+        float: left;
+        padding: 14px 36px 0;
+    }
+    
+    .menu li a {
+        display: block;
+        line-height: 26px;
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .menu li.current-menu-item a {
+        border-bottom: 2px solid #fff;
+    }
+    
+    .menu li a:hover {
+        border-bottom: 2px solid #fff;
+    }
+    /* footer */
+    
+    .w1200 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .site-footer {
+        background-color: #3f3f3f;
+        border-top: 6px solid #00a2ea;
+    }
+    
+    .link-ctt {
+        padding: 40px 0 60px 0;
+    }
+    
+    .footer-logo {
+        float: left;
+    }
+    
+    .site-footer .about {
+        margin-left: 55px;
+        width: 380px;
+        float: left;
+    }
+    
+    .site-footer h6 {
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    
+    .site-footer p {
+        font-size: 14px;
+        color: #c1c1c1;
+        line-height: 1.8;
+    }
+    
+    .site-footer .footer-nav {
+        margin-left: 55px;
+        float: left;
+        min-width: 130px;
+    }
+    
+    .site-footer .contact {
+        margin-left: 55px;
+        float: left;
+    }
+    
+    .link-ctt-center {
+        overflow: hidden;
+    }
+    
+    .copyright {
+        padding: 15px 0;
+        background-color: #1e2326;
+    }
+    
+    .copyright p {
+        text-align: center;
+        font-size: 14px;
+        text-align: center;
+        line-height: 38px;
+    }
+    
+    .scroll-wrapper li {
+        font-size: 14px;
+        color: #c1c1c1;
+        line-height: 1.8;
+    }
+    
+    .scroll-wrapper li a {
+        color: #c1c1c1;
+    }
+    
+    .w1080 {
+        width: 1080px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    
+    .mt-30 {
+        margin-top: 30px;
+    }
+    
+    @media screen and (max-width: 1240px) {
+        .w1200 {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 1100px) {
+        .w1080 {
+            width: 100%;
+            padding-left: 10px!important;
+            padding-right: 10px!important;
+        }
+    }

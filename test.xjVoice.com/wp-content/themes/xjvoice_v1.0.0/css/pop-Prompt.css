@@ -1,0 +1,79 @@
+/* 提示弹窗 */
+
+.Prompt-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.Prompt-pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    margin-top: -120px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ccc;
+    z-index: 101;
+    display: none;
+}
+
+.Prompt-header {
+    padding: 0 10px;
+    position: relative;
+}
+
+.Prompt-header h6 {
+    font-size: 20px;
+    color: #333;
+    line-height: 52px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.Prompt-header i {
+    position: absolute;
+    right: 4px;
+    top: 12px;
+    width: 28px;
+    height: 28px;
+    background: url("../images/index/pop-close.png") no-repeat center center;
+}
+
+.Prompt-header i:hover {
+    background-color: #e7f3ff;
+}
+
+.Prompt-header i:active {
+    background-color: #cde6ff;
+}
+
+.Prompt-ctt {
+    padding: 30px 10px;
+}
+
+.Prompt-p {
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.Prompt-btn {
+    width: 156px;
+    border: 1px solid #158afd;
+    font-size: 20px;
+    color: #fff;
+    background-color: #158afd;
+    border-radius: 3px;
+    line-height: 44px;
+    display: block;
+    margin: 25px auto 0;
+    outline: none;
+}

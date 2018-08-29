@@ -1,0 +1,1002 @@
+/* 购买页 */
+
+.buy-banner {
+    overflow: hidden;
+}
+
+.buy-banner.bg1 {
+    background: url("../images/dwon/buy-banner1.jpg") no-repeat top center;
+}
+
+.buy-banner.bg2 {
+    background: url("../images/dwon/buy-banner2.jpg") no-repeat top center;
+}
+
+.buy-banner.bg3 {
+    background: url("../images/dwon/buy-banner3.jpg") no-repeat top center;
+}
+
+.buy-banner.bg4 {
+    background: url("../images/dwon/buy-banner4.jpg") no-repeat top center;
+}
+
+.buy-banner.bg5 {
+    background: url("../images/dwon/buy-banner5.jpg") no-repeat top center;
+}
+
+.buy-banner-center {
+    overflow: hidden;
+}
+
+.buy-banner-center h6 {
+    line-height: 90px;
+    color: #bde7ff;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+    float: left;
+}
+
+.buy-banner-center h6 span {
+    color: #fff;
+}
+
+.buy-banner-center h6 span span {
+    font-size: 31px;
+    vertical-align: top;
+}
+
+.buy-banner-center a {
+    padding: 0 20px;
+    background-color: #9cd5f5;
+    border-radius: 3px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 57px;
+    font-size: 0;
+}
+
+.buy-banner-center a span {
+    font-size: 18px;
+    line-height: 36px;
+    display: inline-block;
+    padding-right: 36px;
+    font-size: 18px;
+    color: #176cc7;
+    background: url("../images/dwon/icon-jj.png") no-repeat right center;
+}
+
+.editor-buy-form {
+    padding-bottom: 20px;
+}
+
+.buy-form-li.bg-2c50c7 {
+    background-color: #2c50c7;
+}
+
+.editor-buy-center>h6 {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: bold;
+    margin: 0;
+    border-bottom: 1px solid #b2e4fa;
+    padding-top: 20px;
+}
+
+.buy-img-text {
+    overflow: hidden;
+    padding: 22px 30px 30px;
+}
+
+.buy-img {
+    float: left;
+    width: 28%;
+}
+
+.buy-img img {
+    display: block;
+}
+
+.buy-text {
+    float: left;
+    width: 68%;
+    margin-left: 4%;
+}
+
+.buy-text>h6 {
+    font-size: 30px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: bold;
+}
+
+.buy-text-p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.buy-text-p span {
+    color: #ff7373;
+}
+
+.buy-text-p1 {
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1;
+    font-size: 30px;
+    line-height: 1;
+    color: #3a8ded;
+    font-weight: bold;
+}
+
+.buy-text-p1 span {
+    font-size: 20px;
+}
+
+.buy-slt-box {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.buy-slt-box a {
+    border: 1px solid #cecece;
+    width: 252px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+}
+
+.buy-slt-box a span {
+    line-height: 44px;
+    display: inline-block;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+/* .buy-slt-box a.hot-Setmeal span {
+    color: #fff;
+} */
+
+.buy-slt-box a em {
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    background: url("../images/procut_icons/icon-slt-new.png") no-repeat center center;
+    background-size: 100%;
+    display: none;
+}
+
+.buy-slt-box a i {
+    width: 42px;
+    height: 18px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: url("../images/procut_icons/icon-hot.png") no-repeat center center;
+    background-size: 100%;
+    display: none;
+}
+
+.buy-slt-box a.hot-Setmeal i {
+    display: block;
+}
+
+.buy-slt-box a.active em {
+    display: block;
+}
+
+.buy-slt-box a.active {
+    background-color: #4abb2c;
+    border: 1px solid #4abb2c;
+}
+
+.buy-step-two {
+    overflow: hidden;
+}
+
+.buy-step-two .buy-step-li {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+
+.buy-step-two .buy-step-li.no-mr {
+    margin-right: 0;
+}
+
+.buy-step-li {
+    margin-bottom: 0;
+}
+
+.buy-step-li>h6 {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: bold;
+    margin: 0;
+    border-bottom: 1px solid #b2e4fa;
+}
+
+.buy-step-slt {
+    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.buy-step-slt input {
+    width: 48%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    padding: 10px 15px 10px 50px;
+    color: #333;
+    float: left;
+    margin-right: 4%;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.buy-step-slt input.bd-red {
+    border: 1px solid red;
+}
+
+.buy-step-slt input.icon-name {
+    background: url("../images/procut_icons/icon-name1.png") no-repeat left 15px center;
+}
+
+.buy-step-slt input.icon-phone {
+    background: url("../images/procut_icons/icon_phone1.png") no-repeat left 15px center;
+    margin-right: 0;
+}
+
+.buy-step-slt a {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 48%;
+    height: 48px;
+    float: left;
+    margin-right: 4%;
+    border: 1px solid #cecece;
+    position: relative;
+}
+
+.buy-step-slt a.pay-WeChat {
+    background: url("../images/procut_icons/icon-wx1.png") no-repeat center center;
+}
+
+.buy-step-slt a.pay-Alipay {
+    background: url("../images/procut_icons/icon-zfb1.png") no-repeat center center;
+    margin-right: 0;
+}
+
+.buy-step-slt a em {
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    background: url("../images/procut_icons/icon-slt-new.png") no-repeat;
+    background-size: 100%;
+    display: none;
+    z-index: 0;
+}
+
+.buy-step-slt a.active {
+    border: 1px solid #2d9811;
+}
+
+.buy-step-slt a.active em {
+    display: block;
+}
+
+.buy-step-slt button {
+    width: 265px;
+    border: 1px solid #0ab4ff;
+    line-height: 56px;
+    font-size: 26px;
+    color: #fff;
+    background-color: #0ab4ff;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 3px;
+    margin: 15px auto;
+    display: block;
+}
+
+.buy-step-slt button:hover {
+    background-color: #26bcfe;
+    box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.23);
+}
+
+.buy-step-slt button:active {
+    background-color: #08b2fd;
+}
+
+.step-li-bd {
+    border-top: 1px dashed #b2e4fa;
+}
+
+.step-li-bd .buy-step-slt {
+    overflow: auto;
+}
+
+.line-buy.bg-f4f4f4 {
+    background-color: #f4f4f4;
+}
+
+.line-buy.bg-f2f5f7 {
+    background-color: #f2f5f7;
+}
+
+.line-buy.bg-f6fafc {
+    background-color: #f6fafc;
+}
+
+.line-buy.bg-f6f6f6 {
+    background-color: #f6f6f6;
+}
+
+.line-buy-center {
+    padding: 40px 0 65px 0;
+}
+
+.line-buy-center.buy-pd {
+    padding: 30px 0 65px 0;
+}
+
+.line-buy-center>h6 {
+    text-align: center;
+    font-size: 0;
+    margin: 0;
+}
+
+.line-buy-center>h6 span {
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.line-buy-center>h6 em {
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: -20px;
+}
+
+.line-buy-center>h6 em.h-l {
+    background: url("../images/dwon/h-l.png") no-repeat center center;
+}
+
+.line-buy-center>h6 em.h-r {
+    background: url("../images/dwon/h-r.png") no-repeat center center;
+}
+
+.line-buy-ctt {
+    margin-top: 55px;
+}
+
+.line-buy-center.buy-pd .line-buy-ctt {
+    margin-top: 30px;
+}
+
+.Setmeal-table {
+    margin-right: -3px;
+    display: block;
+}
+
+.Setmeal-table-tr {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dddcdb;
+    margin-left: -1px;
+    margin-bottom: 12px;
+    background: #fff;
+    position: relative;
+}
+
+.hot-setmeal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 69px;
+    height: 70px;
+    background: url("../images/dwon/hot.png") no-repeat top right;
+    z-index: 2;
+}
+
+.Setmeal-inline {
+    display: inline-block;
+}
+
+.column-6 {
+    width: 16.66%;
+}
+
+.column-5 {
+    width: 20%;
+}
+
+.column-4 {
+    width: 25%;
+}
+
+.Setmeal-table-th {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dddcdb;
+    background: #fff;
+}
+
+.Setmeal-table-tr:hover {
+    background: #fafff7;
+    padding: 5px 0;
+    position: relative;
+    top: -5px;
+    border: 1px solid #4abb2c;
+    z-index: 2;
+    margin-bottom: 0px;
+    box-shadow: 0 0 30px #ccc;
+}
+
+.Setmeal-table-tr:hover .td-bg {
+    background-color: #eefce5;
+}
+
+.Setmeal-table-tr:hover .Setmeal-table-td.td-bg p {
+    color: #0e71bf;
+}
+
+.Setmeal-table-tr:hover .Setmeal-table-td button {
+    color: #fff;
+    background-color: #0caffa;
+    border: 1px solid #0caffa;
+}
+
+.Setmeal-table-td {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.Setmeal-table-td p {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    line-height: 30px;
+}
+
+.Setmeal-table-tr .Setmeal-table-td p {
+    color: #666;
+}
+
+.Setmeal-table-tr .Setmeal-table-td p.cl-blue {
+    color: #277be3;
+}
+
+.Setmeal-table-td.height-td p.setmeal-p-h {
+    line-height: 180px;
+}
+
+.Setmeal-table-td.height-td1 p.setmeal-p-h {
+    line-height: 240px;
+}
+
+.Setmeal-table-td.height-td {
+    height: 220px;
+}
+
+.Setmeal-table-td.height-td1 {
+    height: 280px;
+}
+
+.font-24 {
+    font-size: 24px!important;
+    padding: 15px 0;
+}
+
+
+/* .font-26 {
+    font-size: 26px!important;
+} */
+
+.td-bg {
+    background-color: #fbf9f8;
+}
+
+.Setmeal-table-td button {
+    width: 100%;
+    border: 1px solid #277be3;
+    color: #277be3;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    margin: 0 auto;
+    background: none;
+    padding: 0;
+    display: block;
+}
+
+.setmeal-th .Setmeal-table-td button {
+    border: 1px solid #333;
+    color: #333;
+}
+
+.Setmeal-table-td p.Setmeal-lg {
+    padding: 10px 0 10px 50px;
+    line-height: 20px;
+    height: auto;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg1 {
+    background: url("../images/dwon/icon-logo-1.png") no-repeat left center;
+    background-size: 40px;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg2 {
+    background: url("../images/dwon/icon-logo-2.png") no-repeat left center;
+    background-size: 40px;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg3 {
+    background: url("../images/dwon/icon-logo-3.png") no-repeat left center;
+    background-size: 40px;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg4 {
+    background: url("../images/dwon/icon-logo-4.png") no-repeat left center;
+    background-size: 40px;
+}
+
+.Setmeal-table-td p.Setmeal-lg.icon-lg5 {
+    background: url("../images/dwon/icon-logo-5.png") no-repeat left center;
+    background-size: 40px;
+}
+
+.Setmeal-table-td p span.icon-Set1 {
+    padding-left: 40px;
+    background: url("../images/dwon/icon-dcdj1.png") no-repeat left center;
+    color: #333;
+}
+
+.Setmeal-table-td p span.icon-Set2 {
+    padding-left: 35px;
+    background: url("../images/dwon/icon-dcdj2.png") no-repeat left center;
+    color: #333;
+}
+
+.Setmeal-table-td p span.icon-Set3 {
+    padding-left: 35px;
+    background: url("../images/dwon/icon-dcdj3.png") no-repeat left center;
+    color: #333;
+}
+
+.Setmeal-table-td p span.icon-Set4 {
+    padding-left: 35px;
+    background: url("../images/dwon/icon-dcdj4.png") no-repeat left center;
+    color: #333;
+}
+
+.Setmeal-table-td p span.icon-Set5 {
+    padding-left: 35px;
+    background: url("../images/dwon/icon-dcdj5.png") no-repeat left center;
+    color: #333;
+}
+
+.Becareful-box p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.After-sale-list li {
+    position: relative;
+}
+
+.After-sale-list li img {
+    display: block;
+    max-width: 100%;
+}
+
+.After-sale-list li p {
+    position: absolute;
+    top: 90%;
+    line-height: 1;
+    font-size: 24px;
+    color: #333333;
+    margin-top: -12px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+.buy-plate-center {
+    padding: 35px 0 40px 0;
+    overflow: hidden;
+}
+
+.buy-plate-li {
+    float: left;
+    width: 31.33%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 20px 15px 30px;
+    border: 1px solid #dddcdb;
+    border-radius: 8px;
+}
+
+.buy-plate-li.no-mr {
+    margin-right: 0;
+}
+
+.buy-plate-li>h6 {
+    text-align: center;
+    font-size: 0;
+    margin: 0;
+}
+
+.buy-plate-li>h6 em {
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: -17px;
+}
+
+.buy-plate-li>h6 em.h-l {
+    background: url(../images/dwon/h-l.png) no-repeat center center;
+}
+
+.buy-plate-li>h6 em.h-r {
+    background: url(../images/dwon/h-r.png) no-repeat center center;
+}
+
+.buy-plate-li>h6 span {
+    font-size: 22px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.buy-plate-ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.buy-plate-ul li {
+    display: block;
+    padding: 8px 30px;
+    border-bottom: 1px dashed #dddcdb;
+    font-size: 0;
+}
+
+.buy-plate-ul li:last-child {
+    border-bottom: none;
+}
+
+.buy-plate-ul li i {
+    width: 34px;
+    height: 44px;
+    float: left;
+    margin-right: 20px;
+}
+
+.buy-plate-ul li p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 21px;
+    display: table-cell;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.buy-plate-ul li i.icon-lx1 {
+    background: url("../images/procut_icons/icon-lx1.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-lx2 {
+    background: url("../images/procut_icons/icon-lx2.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-lx3 {
+    background: url("../images/procut_icons/icon-lx3.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-lx4 {
+    background: url("../images/procut_icons/icon-lx4.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-ts1 {
+    background: url("../images/procut_icons/icon-ts1.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-ts2 {
+    background: url("../images/procut_icons/icon-ts2.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-ts3 {
+    background: url("../images/procut_icons/icon-ts3.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-ts4 {
+    background: url("../images/procut_icons/icon-ts4.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-sm1 {
+    background: url("../images/procut_icons/icon-sm1.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-sm2 {
+    background: url("../images/procut_icons/icon-sm2.png") no-repeat center center;
+}
+
+.buy-plate-ul li i.icon-sm3 {
+    background: url("../images/procut_icons/icon-sm3.png") no-repeat center center;
+}
+
+
+/* 微信支付弹窗 */
+
+.pop-mask {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.WeChat-payment-pop {
+    position: fixed;
+    top: 50%;
+    margin-top: -210px;
+    width: 720px;
+    left: 50%;
+    margin-left: -360px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 25px 54px 22px;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 101;
+    display: none;
+}
+
+.WeChat-payment-header h6 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.pop-close {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../images/products/weixin-close.png") no-repeat center center;
+}
+
+.WeChat-payment-ctt {
+    overflow: hidden;
+}
+
+.WeChat-payment-money {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6600;
+    line-height: 1.8;
+    margin: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.WeChat-payment-details {
+    overflow: hidden;
+}
+
+.WeChat-payment-text {
+    width: 184px;
+    margin-right: 25px;
+    float: left;
+}
+
+.WeChat-payment-text p {
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.WeChat-payment-text p span {
+    font-weight: normal;
+}
+
+.WeChat-payment-qr {
+    float: left;
+    width: 210px;
+}
+
+.qr-box {
+    border: 1px solid #dadada;
+    padding: 30px;
+}
+
+.qr-box img {
+    width: 100%;
+}
+
+.WeChat-payment-qr>img {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+.WeChat-payment-img {
+    float: left;
+    margin-left: 10px;
+}
+
+.WeChat-payment-img img {
+    display: block;
+}
+
+
+/*注意事项*/
+
+.buy-pub-center>h6 {
+    padding: 35px 0 30px;
+    text-align: center;
+    line-height: 1.5;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Be-careful {
+    padding: 0 30px 35px;
+}
+
+.Be-careful p {
+    font-size: 16px;
+    color: #888888;
+    line-height: 1.5;
+    padding: 3px 0;
+}
+
+.After-sale-buy {
+    padding-bottom: 80px;
+    display: block;
+}
+
+.After-sale-buy li {
+    width: 19%;
+    float: left;
+    padding: 50px 0 40px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.After-sale-buy li+li {
+    margin-left: 8%;
+}
+
+.After-sale-buy img {
+    display: block;
+    margin: 0 auto;
+}
+
+.After-sale-buy p {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 1240px) {
+    .column-6,
+    .column-5 {
+        width: 33.33%;
+    }
+    .Setmeal-table-tr:hover {
+        padding: 0;
+        top: 0;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .column-4 {
+        width: 50%;
+    }
+    .buy-step-two .buy-step-li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .column-6 {
+        width: 50%;
+    }
+    .After-sale-buy li {
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .After-sale-buy li+li {
+        margin-left: 0;
+    }
+    .After-sale-buy li:nth-child(2n+1) {
+        margin-right: 4%;
+    }
+    .buy-img,
+    .buy-text {
+        width: 100%;
+    }
+    .buy-banner-center h6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column-6,
+    .column-5,
+    .column-4 {
+        width: 100%;
+    }
+    .buy-step-slt input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .buy-step-slt a {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

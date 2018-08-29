@@ -1,0 +1,73 @@
+<view class='title'  wx:if="{{imgUrl!=''}}">
+  <view>
+    <image src='{{imgUrl}}'></image>
+  </view>
+  <text>{{title}}</text>
+</view>
+<view class='package-title'>
+  <text>预约恢复套餐</text>
+</view>
+<view>
+  <view class='package-plan'  bindtap='checkpackage' id='1' data-price='96'>
+    <view>
+      <view class='plan-detail'>
+        <image class='logo-icon' src='../../images/logo_sjsjhfjl.png'></image>
+        <text class='equal'>=</text>
+        <text class='price'>￥96</text>
+      </view>
+      <view class='plan-dec' wx:if="{{isIos == 0}}">96元<text>"{{title}}"</text>预约咨询服务（只咨询不恢复）</view>
+      <view class='plan-dec' wx:else>96元<text>"{{title}}"</text>预约咨询服务（只咨询不恢复）</view>
+    </view>
+    <view class='checkbox'>
+      <image src='../../images/checked.png' wx:if="{{checked == 1}}"></image>
+      <image src='../../images/check.png' wx:else></image>
+    </view>
+  </view>
+
+  <view class='package-plan hot'  bindtap='checkpackage' id='2' data-price='156'>
+    <image class='hot-rec' src='../../images/icon_tuijian.png'></image>
+    <view>
+      <view class='plan-detail'>
+        <image class='logo-icon' src='../../images/logo_sjsjhfjl.png'></image>
+        <text class='equal'>+</text>
+        <image class='logo-icon' src='../../images/logo_iphonehf.png' wx:if="{{isIos == 0}}"></image>
+        <image class='logo-icon' src='../../images/logo-s.png' wx:else></image>
+        <text class='equal'>=</text>
+        <text class='price'>￥156</text>
+      </view>
+      <view class='plan-dec' wx:if="{{isIos == 0}}">156元<text>"{{title}}"</text>排队恢复服务</view>
+      <view class='plan-dec' wx:else>156元<text>"{{title}}"</text>排队恢复服务</view>
+    </view>
+    <view class='checkbox'>
+      <image src='../../images/checked.png' wx:if="{{checked == 2}}"></image>
+      <image src='../../images/check.png' wx:else></image>
+    </view>
+  </view>
+
+  <view class='package-plan'  bindtap='checkpackage' id='3' data-price='256'>
+    <view>
+      <view class='plan-detail'>
+        <image class='logo-icon' src='../../images/logo_sjsjhfjl.png'></image>
+        <text class='equal'>+</text>
+        <image class='logo-icon' src='../../images/logo_iphonehf.png' wx:if="{{isIos == 0}}"></image>
+        <image class='logo-icon' src='../../images/logo-s.png' wx:else></image>
+        <text class='equal'>+</text>
+        <image class='logo-icon' src='../../images/logo_jinji.png'></image>
+        <text class='equal'>=</text>
+        <text class='price'>￥256</text>
+      </view>
+      <view class='plan-dec' wx:if="{{isIos == 0}}">256元<text>"{{title}}"</text>人工加急服务</view>
+      <view class='plan-dec' wx:else>256元<text>"{{title}}"</text>人工加急服务</view>
+    </view>
+    <view class='checkbox'>
+      <image src='../../images/checked.png' wx:if="{{checked == 3}}"></image>
+      <image src='../../images/check.png' wx:else></image>
+    </view>
+  </view>
+</view>
+<view class='buy'>
+  <view class='price'>
+    价格：<text>￥{{price}}</text>  
+  </view>
+  <view class='btn' bindtap='order'>预约</view>
+</view>
